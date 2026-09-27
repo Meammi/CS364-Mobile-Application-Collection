@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">โปรแกรมคำนวณดัชนีมวลกาย</string>
+    <string name="bmi_title">ค่าดัชนีมวลกาย</string>
+    <string name="weight">น้ำหนัก (กิโลกรัม)</string>
+    <string name="height">ส่วนสูง (เซนติเมตร)</string>
+    <string name="bmi">ค่าดัชนีมวลกาย</string>
+    <string name="status">อยู่ในเกณฑ์</string>
+    <string name="calculate">คำนวณ</string>
+    <string name="normal">ปกติ</string>
+    <string name="underweight">น้ำหนักต่ำกว่าเกณฑ์</string>
+    <string name="overweight">น้ำหนักเกินกว่าเกณฑ์</string>
+    <string name="obese">อ้วน</string>
+    <string name="bmi_result">0.0</string>
+    <string name="hint_text">0.0</string>
+</resources>
