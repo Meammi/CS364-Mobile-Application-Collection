@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="result_size">16sp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="control_gap">10dp</dimen>
+    <dimen name="section_gap">18dp</dimen>
+    <dimen name="result_padding">16dp</dimen>
+    <dimen name="bottom_safe_area">32dp</dimen>
+</resources>

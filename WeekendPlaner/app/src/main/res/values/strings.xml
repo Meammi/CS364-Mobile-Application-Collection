@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Weekend Planner</string>
+    <string name="app_title">My Weekend Planner</string>
+    <string name="app_subtitle">Plan something awesome!</string>
+    <string name="activity_name">Activity Name</string>
+    <string name="activity_hint">e.g. Family Day</string>
+    <string name="location">Where are you going?</string>
+    <string name="location_hint">Type a place</string>
+    <string-array name="location_options">
+        <item>Future Park Rangsit</item>
+        <item>Dream World</item>
+        <item>IKEA Bang Yai</item>
+        <item>Chatuchak Park</item>
+        <item>Khao Yai</item>
+    </string-array>
+    <string name="activity_type">Activity Type</string>
+    <string name="indoor">Indoor</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="food">Food</string>
+    <string name="bring">What will you bring?</string>
+    <string name="water">Water</string>
+    <string name="camera">Camera</string>
+    <string name="snacks">Snacks</string>
+    <string name="budget">Budget</string>
+    <string-array name="budget_options">
+        <item>Under 500 Baht</item>
+        <item>500–1,000 Baht</item>
+        <item>1,000–2,000 Baht</item>
+        <item>Over 2,000 Baht</item>
+    </string-array>
+    <string name="date_time">Date and Time</string>
+    <string name="select_date">Date</string>
+    <string name="select_time">Time</string>
+    <string name="reminder">Reminder</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="excitement">How excited are you?</string>
+    <string name="create_plan">CREATE MY PLAN</string>
+    <string name="result_placeholder">Your plan will appear here.</string>
+    <string name="required">Required</string>
+    <string name="not_selected">Not selected</string>
+    <string name="none">None</string>
+    <string name="plan_created">Your weekend plan is ready!</string>
+    <string name="plan_result">🎉 YOUR WEEKEND PLAN\n%s\n📍 %s\n🌳 %s\n\n📅 %s\n🕙 %s\n💰 %s\n🔔 Reminder: %s\n\nBring: %s\n⭐ Excitement: %.0f / 5</string>
+</resources>
