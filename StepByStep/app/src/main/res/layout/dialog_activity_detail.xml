@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingTop="16dp"
+    android:paddingEnd="24dp"
+    android:stretchColumns="1">
+
+    <TableRow android:paddingBottom="8dp">
+
+        <TextView
+            android:text="@string/label_started"
+            android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+        <TextView
+            android:id="@+id/tvDetailStart"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceBodyLarge" />
+    </TableRow>
+
+    <TableRow android:paddingBottom="8dp">
+
+        <TextView
+            android:text="@string/label_duration"
+            android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+        <TextView
+            android:id="@+id/tvDetailDuration"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceBodyLarge" />
+    </TableRow>
+
+    <TableRow android:paddingBottom="8dp">
+
+        <TextView
+            android:text="@string/label_steps"
+            android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+        <TextView
+            android:id="@+id/tvDetailSteps"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceBodyLarge" />
+    </TableRow>
+
+    <TableRow android:paddingBottom="8dp">
+
+        <TextView
+            android:text="@string/label_shakes"
+            android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+        <TextView
+            android:id="@+id/tvDetailShakes"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceBodyLarge" />
+    </TableRow>
+
+    <TableRow android:paddingBottom="8dp">
+
+        <TextView
+            android:text="@string/label_avg_steps"
+            android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+        <TextView
+            android:id="@+id/tvDetailAvgSteps"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceBodyLarge" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/label_avg_shakes"
+            android:textAppearance="?attr/textAppearanceLabelLarge" />
+
+        <TextView
+            android:id="@+id/tvDetailAvgShakes"
+            android:gravity="end"
+            android:textAppearance="?attr/textAppearanceBodyLarge" />
+    </TableRow>
+</TableLayout>

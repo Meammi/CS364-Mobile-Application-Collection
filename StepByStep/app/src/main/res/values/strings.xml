@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">StepByStep</string>
+
+    <!-- Header -->
+    <string name="header_title">All sessions</string>
+    <string name="label_total_steps">Total steps</string>
+    <string name="label_total_shakes">Total shakes</string>
+    <string name="label_best_steps">Best steps</string>
+    <string name="label_best_shakes">Best shakes</string>
+
+    <!-- Current session -->
+    <string name="session_title">Current session</string>
+    <string name="label_steps">Steps</string>
+    <string name="label_shakes">Shakes</string>
+    <string name="label_duration">Duration</string>
+    <string name="label_avg_steps">Steps/min</string>
+    <string name="label_avg_shakes">Shakes/min</string>
+
+    <string name="value_zero">0</string>
+    <string name="value_zero_avg">0.0</string>
+    <string name="value_zero_duration">00:00</string>
+    <string name="value_unavailable">N/A</string>
+    <string name="duration_m_s">%1$02d:%2$02d</string>
+    <string name="avg_format">%1$.1f</string>
+
+    <!-- Messages -->
+    <string name="msg_no_step_counter">No step counter on this phone.</string>
+    <string name="msg_no_accelerometer">No accelerometer on this phone.</string>
+    <string name="msg_step_permission_denied">Permission denied. Step counter is off.</string>
+
+    <!-- Buttons -->
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="new_record">New Record!</string>
+    <string name="new_record_steps">New Record: steps!</string>
+    <string name="new_record_shakes">New Record: shakes!</string>
+    <string name="new_record_both">New Record: steps and shakes!</string>
+
+    <!-- Save / delete -->
+    <string name="msg_saved">Session saved</string>
+    <string name="msg_deleted">Session deleted</string>
+    <string name="delete_title">Delete this session?</string>
+    <string name="delete_message">Totals and best will be updated.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- History -->
+    <plurals name="item_steps">
+        <item quantity="one">%d step</item>
+        <item quantity="other">%d steps</item>
+    </plurals>
+    <plurals name="item_shakes">
+        <item quantity="one">%d shake</item>
+        <item quantity="other">%d shakes</item>
+    </plurals>
+    <string name="detail_title">Session details</string>
+    <string name="label_started">Started</string>
+    <string name="btn_close">Close</string>
+    <string name="history_title">History</string>
+    <string name="empty_history">No activity yet. Press Start to begin.</string>
+</resources>
