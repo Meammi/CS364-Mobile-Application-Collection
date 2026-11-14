@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Flashcards</string>
+    <string name="navigate_up">ย้อนกลับ</string>
+
+    <!-- Deck list -->
+    <string name="decks_title">ชุดคำศัพท์</string>
+    <string name="new_deck">สร้างชุดใหม่</string>
+    <string name="deck_name_hint">ชื่อชุด</string>
+    <string name="create">สร้าง</string>
+    <string name="no_decks">ยังไม่มีชุดคำศัพท์ แตะ “สร้างชุดใหม่” เพื่อเริ่มต้น</string>
+    <string name="deck_counts">ครบกำหนด %1$d · ทั้งหมด %2$d ใบ</string>
+    <string name="more_options">ตัวเลือกเพิ่มเติม</string>
+    <string name="delete">ลบ</string>
+    <string name="delete_deck_title">ลบชุดนี้หรือไม่?</string>
+    <string name="delete_deck_message">“%1$s” และการ์ด %2$d ใบจะถูกลบ ไม่สามารถกู้คืนได้</string>
+    <string name="deck_name_exists">มีชุดชื่อนี้อยู่แล้ว</string>
+    <string name="press_back_again">กดย้อนกลับอีกครั้งเพื่อออก</string>
+
+    <!-- Deck screen -->
+    <string name="study">เริ่มเรียน</string>
+    <string name="add_card">เพิ่มการ์ด</string>
+    <string name="no_cards">ยังไม่มีการ์ด แตะ “เพิ่มการ์ด”</string>
+    <string name="add_cards_first">เพิ่มการ์ดอย่างน้อย 1 ใบก่อน</string>
+    <string name="nothing_due_title">ไม่มีการ์ดครบกำหนด</string>
+    <string name="nothing_due_message">วันนี้ไม่มีการ์ดครบกำหนด ต้องการทบทวนเลยหรือไม่ การทบทวนนี้ไม่เปลี่ยนตารางทบทวนของคุณ</string>
+    <string name="study_anyway">ทบทวนเลย</string>
+    <string name="rename_deck">เปลี่ยนชื่อชุด</string>
+    <string name="rename">เปลี่ยนชื่อ</string>
+    <string name="delete_card_title">ลบการ์ดนี้หรือไม่?</string>
+    <string name="delete_card_message">“%1$s” จะถูกลบ ไม่สามารถกู้คืนได้</string>
+
+    <!-- Add / edit card -->
+    <string name="add_card_title">การ์ดใหม่</string>
+    <string name="edit_card_title">แก้ไขการ์ด</string>
+    <string name="card_front_hint">ด้านหน้า (คำศัพท์)</string>
+    <string name="card_back_hint">ด้านหลัง (ความหมาย ตัวอย่าง…)</string>
+    <string name="save">บันทึก</string>
+    <string name="save_add_another">บันทึกและเพิ่มใบถัดไป</string>
+    <string name="required">จำเป็นต้องกรอก</string>
+    <string name="card_front_exists">มีการ์ดด้านหน้านี้อยู่แล้วในชุดนี้</string>
+    <string name="saved">บันทึกแล้ว</string>
+
+    <!-- Review -->
+    <string name="study_time">เวลาที่ใช้ทบทวน</string>
+    <string name="review_progress">การ์ดใบที่ %1$d จาก %2$d</string>
+    <string name="session_complete">เสร็จสิ้น</string>
+    <string name="practice_badge">โหมดฝึก — ไม่เปลี่ยนตารางทบทวนของคุณ</string>
+    <string name="mode_original">โหมด: ปกติ</string>
+    <string name="mode_choice">โหมด: ตัวเลือก</string>
+    <string name="choice_notice">การ์ดอื่นไม่พอสำหรับสร้างตัวเลือก — แสดงการ์ดแบบปกติ</string>
+    <string name="show_answer">แสดงคำตอบ</string>
+    <string name="grade_again">อีกครั้ง</string>
+    <string name="grade_hard">ยาก</string>
+    <string name="grade_good">ดี</string>
+    <string name="grade_easy">ง่าย</string>
+    <string name="next">ถัดไป</string>
+    <string name="correct">ถูกต้อง!</string>
+    <string name="wrong">ไม่ถูกต้อง</string>
+    <string name="end_title">จบการทบทวนหรือไม่?</string>
+    <string name="end_message">คำตอบที่ตอบไปแล้วถูกบันทึกไว้แล้ว</string>
+    <string name="end_yes">จบการทบทวน</string>
+    <string name="keep_studying">ทบทวนต่อ</string>
+    <string name="summary_title">ทบทวนเสร็จแล้ว</string>
+    <string name="summary_message">ทบทวนแล้ว %1$d ใบ\nตอบ “อีกครั้ง” %2$d ใบ\nเวลา: %3$s</string>
+    <!-- Settings -->
+    <string name="settings">การตั้งค่า</string>
+    <string name="settings_appearance">การแสดงผล</string>
+    <string name="setting_theme">ธีม</string>
+    <string name="theme_system">ตามระบบ</string>
+    <string name="theme_light">สว่าง</string>
+    <string name="theme_dark">มืด</string>
+    <string name="setting_language">ภาษา</string>
+    <string name="language_system">ตามระบบ</string>
+    <string name="language_english">English</string>
+    <string name="language_thai">ไทย</string>
+    <string name="settings_review">การทบทวน</string>
+    <string name="setting_default_mode">โหมดเริ่มต้น</string>
+    <string name="default_mode_last">ใช้ล่าสุด</string>
+    <string name="default_mode_original">ปกติ</string>
+    <string name="default_mode_choice">ตัวเลือก</string>
+    <string name="setting_new_limit">การ์ดใหม่ต่อวัน (ต่อชุด)</string>
+    <string name="new_limit_unlimited">ไม่จำกัด</string>
+    <string name="new_limit_value">สูงสุด %1$d ใบ</string>
+    <string name="new_limit_hint">0 = ไม่จำกัด</string>
+    <string name="settings_reminder">การแจ้งเตือน</string>
+    <string name="setting_reminder">เตือนให้ทบทวนทุกวัน</string>
+    <string name="setting_reminder_time">เวลาแจ้งเตือน</string>
+    <string name="reminder_permission_denied">อนุญาตการแจ้งเตือนของ Flashcards ในการตั้งค่าระบบเพื่อรับการเตือน</string>
+    <string name="reminder_channel">เตือนให้ทบทวน</string>
+    <string name="reminder_text">การ์ดที่ครบกำหนดวันนี้: %1$d ใบ</string>
+    <string name="settings_data">ข้อมูล</string>
+    <string name="reset_all">รีเซ็ตความคืบหน้าทั้งหมด</string>
+    <string name="reset_all_summary">การ์ดทุกใบกลับเป็นการ์ดใหม่ การ์ดไม่ถูกลบ</string>
+    <string name="reset_all_title">รีเซ็ตความคืบหน้าทั้งหมดหรือไม่?</string>
+    <string name="reset_all_message">การ์ดทุกใบในทุกชุดจะกลับเป็นการ์ดใหม่ การ์ดของคุณไม่ถูกลบ ไม่สามารถย้อนกลับได้</string>
+    <string name="reset_deck">รีเซ็ตความคืบหน้า</string>
+    <string name="reset_deck_title">รีเซ็ตความคืบหน้าหรือไม่?</string>
+    <string name="reset_deck_message">การ์ดทุกใบใน “%1$s” จะกลับเป็นการ์ดใหม่ การ์ดของคุณไม่ถูกลบ ไม่สามารถย้อนกลับได้</string>
+    <string name="reset_confirm">รีเซ็ต</string>
+    <string name="progress_reset">รีเซ็ตแล้ว</string>
+    <!-- Statistics -->
+    <string name="statistics">สถิติ</string>
+    <string name="stats_all_decks">ทุกชุด</string>
+    <string name="stats_today">วันนี้</string>
+    <string name="stats_all_time">ทั้งหมด</string>
+    <string name="stats_cards_time">การ์ด %1$d ใบ · เวลา %2$s</string>
+    <string name="stats_streak">เรียนต่อเนื่อง (วัน)</string>
+    <string name="stats_again_rate">ตอบ “อีกครั้ง” (เฉพาะการทบทวน)</string>
+    <string name="stats_percent">%1$d%%</string>
+    <string name="stats_no_value">—</string>
+    <string name="stats_last_7_days">7 วันล่าสุด</string>
+    <string name="stats_cards_reviewed">การ์ดที่ทบทวน</string>
+    <string name="stats_minutes">เวลาทบทวน (นาที)</string>
+    <string name="stats_card_states">สถานะการ์ด</string>
+    <string name="state_new">ใหม่</string>
+    <string name="state_learning">กำลังเรียน</string>
+    <string name="state_mature">จำได้ดี</string>
+    <string name="stats_states_hint">กำลังเรียน = ทบทวนครั้งถัดไปภายใน 21 วัน จำได้ดี = 21 วันขึ้นไป</string>
+    <string name="stats_history">บันทึกการทบทวน</string>
+    <string name="stats_no_sessions">ยังไม่มีการทบทวน</string>
+    <string name="session_practice_title">%1$s · ฝึก</string>
+    <string name="session_detail">%1$s · %2$d ใบ · อีกครั้ง %3$d · %4$s</string>
+</resources>

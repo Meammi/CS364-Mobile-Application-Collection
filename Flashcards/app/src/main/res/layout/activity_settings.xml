@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationContentDescription="@string/navigate_up"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="@string/settings" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <TextView
+                style="@style/SettingsHeader"
+                android:text="@string/settings_appearance" />
+
+            <include
+                android:id="@+id/rowTheme"
+                layout="@layout/item_setting" />
+
+            <include
+                android:id="@+id/rowLanguage"
+                layout="@layout/item_setting" />
+
+            <TextView
+                style="@style/SettingsHeader"
+                android:text="@string/settings_review" />
+
+            <include
+                android:id="@+id/rowMode"
+                layout="@layout/item_setting" />
+
+            <include
+                android:id="@+id/rowNewLimit"
+                layout="@layout/item_setting" />
+
+            <TextView
+                style="@style/SettingsHeader"
+                android:text="@string/settings_reminder" />
+
+            <LinearLayout
+                android:id="@+id/rowReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:gravity="center_vertical"
+                android:minHeight="64dp"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/setting_reminder"
+                    android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/reminderSwitch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </LinearLayout>
+
+            <include
+                android:id="@+id/rowReminderTime"
+                layout="@layout/item_setting" />
+
+            <TextView
+                style="@style/SettingsHeader"
+                android:text="@string/settings_data" />
+
+            <include
+                android:id="@+id/rowReset"
+                layout="@layout/item_setting" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

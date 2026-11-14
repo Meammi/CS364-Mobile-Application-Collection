@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatsActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationContentDescription="@string/navigate_up"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="@string/statistics" />
+
+    <Spinner
+        android:id="@+id/deckFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:minHeight="48dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <!-- totals -->
+            <include
+                android:id="@+id/rowToday"
+                layout="@layout/item_setting" />
+
+            <include
+                android:id="@+id/rowAllTime"
+                layout="@layout/item_setting" />
+
+            <include
+                android:id="@+id/rowStreak"
+                layout="@layout/item_setting" />
+
+            <include
+                android:id="@+id/rowAgain"
+                layout="@layout/item_setting" />
+
+            <TextView
+                style="@style/SettingsHeader"
+                android:text="@string/stats_last_7_days" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/stats_cards_reviewed"
+                android:textAppearance="?attr/textAppearanceBodyMedium" />
+
+            <LinearLayout
+                android:id="@+id/chartCards"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/stats_minutes"
+                android:textAppearance="?attr/textAppearanceBodyMedium" />
+
+            <LinearLayout
+                android:id="@+id/chartMinutes"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal" />
+
+            <TextView
+                style="@style/SettingsHeader"
+                android:text="@string/stats_card_states" />
+
+            <include
+                android:id="@+id/rowNew"
+                layout="@layout/item_setting" />
+
+            <include
+                android:id="@+id/rowLearning"
+                layout="@layout/item_setting" />
+
+            <include
+                android:id="@+id/rowMature"
+                layout="@layout/item_setting" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/stats_states_hint"
+                android:textAppearance="?attr/textAppearanceBodySmall"
+                android:textColor="?attr/colorOnSurfaceVariant" />
+
+            <TextView
+                style="@style/SettingsHeader"
+                android:text="@string/stats_history" />
+
+            <TextView
+                android:id="@+id/historyEmpty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/stats_no_sessions"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/historyList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

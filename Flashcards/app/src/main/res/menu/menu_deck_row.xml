@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- popup on each deck-list row -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_row_stats"
+        android:title="@string/statistics" />
+    <item
+        android:id="@+id/action_row_rename"
+        android:title="@string/rename_deck" />
+    <item
+        android:id="@+id/action_row_reset"
+        android:title="@string/reset_deck" />
+    <item
+        android:id="@+id/action_row_delete"
+        android:title="@string/delete" />
+</menu>

@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Flashcards</string>
+    <string name="navigate_up">Back</string>
+
+    <!-- Deck list -->
+    <string name="decks_title">Decks</string>
+    <string name="new_deck">New deck</string>
+    <string name="deck_name_hint">Deck name</string>
+    <string name="create">Create</string>
+    <string name="no_decks">No decks yet. Tap “New deck” to start.</string>
+    <string name="deck_counts">%1$d due · %2$d cards</string>
+    <string name="more_options">More options</string>
+    <string name="delete">Delete</string>
+    <string name="delete_deck_title">Delete deck?</string>
+    <string name="delete_deck_message">“%1$s” and its %2$d cards will be deleted. This cannot be undone.</string>
+    <string name="deck_name_exists">A deck with this name already exists</string>
+    <string name="press_back_again">Press back again to exit</string>
+
+    <!-- Deck screen -->
+    <string name="study">Study</string>
+    <string name="add_card">Add card</string>
+    <string name="no_cards">No cards yet. Tap “Add card”.</string>
+    <string name="add_cards_first">Add at least one card first</string>
+    <string name="nothing_due_title">Nothing due</string>
+    <string name="nothing_due_message">No cards are due today. Study anyway? Practice does not change your schedule.</string>
+    <string name="study_anyway">Study anyway</string>
+    <string name="rename_deck">Rename deck</string>
+    <string name="rename">Rename</string>
+    <string name="delete_card_title">Delete card?</string>
+    <string name="delete_card_message">“%1$s” will be deleted. This cannot be undone.</string>
+
+    <!-- Add / edit card -->
+    <string name="add_card_title">New card</string>
+    <string name="edit_card_title">Edit card</string>
+    <string name="card_front_hint">Front (word)</string>
+    <string name="card_back_hint">Back (meaning, examples…)</string>
+    <string name="save">Save</string>
+    <string name="save_add_another">Save &amp; add another</string>
+    <string name="required">Required</string>
+    <string name="card_front_exists">A card with this front already exists in this deck</string>
+    <string name="saved">Saved</string>
+
+    <!-- Review -->
+    <string name="study_time">Study time</string>
+    <string name="review_progress">Card %1$d of %2$d</string>
+    <string name="session_complete">Done</string>
+    <string name="practice_badge">Practice — your schedule is not changed</string>
+    <string name="mode_original">Mode: Original</string>
+    <string name="mode_choice">Mode: Multiple choice</string>
+    <string name="choice_notice">Not enough other cards to make choices — showing the original card.</string>
+    <string name="show_answer">Show answer</string>
+    <string name="grade_again">Again</string>
+    <string name="grade_hard">Hard</string>
+    <string name="grade_good">Good</string>
+    <string name="grade_easy">Easy</string>
+    <string name="next">Next</string>
+    <string name="correct">Correct!</string>
+    <string name="wrong">Wrong</string>
+    <string name="end_title">End session?</string>
+    <string name="end_message">Your answers so far are saved.</string>
+    <string name="end_yes">End session</string>
+    <string name="keep_studying">Keep studying</string>
+    <string name="summary_title">Session complete</string>
+    <string name="summary_message">Cards reviewed: %1$d\nMarked Again: %2$d\nTime: %3$s</string>
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_system">Follow system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="setting_language">Language</string>
+    <string name="language_system">Follow system</string>
+    <string name="language_english">English</string>
+    <string name="language_thai">ไทย</string>
+    <string name="settings_review">Review</string>
+    <string name="setting_default_mode">Starting mode</string>
+    <string name="default_mode_last">Last used</string>
+    <string name="default_mode_original">Original</string>
+    <string name="default_mode_choice">Multiple choice</string>
+    <string name="setting_new_limit">New cards per day (each deck)</string>
+    <string name="new_limit_unlimited">Unlimited</string>
+    <string name="new_limit_value">Up to %1$d</string>
+    <string name="new_limit_hint">0 = unlimited</string>
+    <string name="settings_reminder">Reminder</string>
+    <string name="setting_reminder">Daily study reminder</string>
+    <string name="setting_reminder_time">Reminder time</string>
+    <string name="reminder_permission_denied">Allow notifications for Flashcards in system settings to get reminders.</string>
+    <string name="reminder_channel">Study reminders</string>
+    <string name="reminder_text">Cards due today: %1$d</string>
+    <string name="settings_data">Data</string>
+    <string name="reset_all">Reset all progress</string>
+    <string name="reset_all_summary">Every card becomes new again. Cards are kept.</string>
+    <string name="reset_all_title">Reset all progress?</string>
+    <string name="reset_all_message">Every card in every deck becomes new again. Your cards are kept. This cannot be undone.</string>
+    <string name="reset_deck">Reset progress</string>
+    <string name="reset_deck_title">Reset progress?</string>
+    <string name="reset_deck_message">All cards in “%1$s” become new again. Your cards are kept. This cannot be undone.</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="progress_reset">Progress reset</string>
+    <!-- Statistics -->
+    <string name="statistics">Statistics</string>
+    <string name="stats_all_decks">All decks</string>
+    <string name="stats_today">Today</string>
+    <string name="stats_all_time">All time</string>
+    <string name="stats_cards_time">Cards: %1$d · Time: %2$s</string>
+    <string name="stats_streak">Days in a row</string>
+    <string name="stats_again_rate">Answered Again (reviews only)</string>
+    <string name="stats_percent">%1$d%%</string>
+    <string name="stats_no_value">—</string>
+    <string name="stats_last_7_days">Last 7 days</string>
+    <string name="stats_cards_reviewed">Cards reviewed</string>
+    <string name="stats_minutes">Study time (minutes)</string>
+    <string name="stats_card_states">Card states</string>
+    <string name="state_new">New</string>
+    <string name="state_learning">Learning</string>
+    <string name="state_mature">Mature</string>
+    <string name="stats_states_hint">Learning = next review in under 21 days. Mature = 21 days or more.</string>
+    <string name="stats_history">Study log</string>
+    <string name="stats_no_sessions">No study sessions yet.</string>
+    <string name="session_practice_title">%1$s · Practice</string>
+    <string name="session_detail">%1$s · Cards: %2$d · Again: %3$d · %4$s</string>
+</resources>
