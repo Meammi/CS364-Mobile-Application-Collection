@@ -1,0 +1,354 @@
+Deck: Wuwa 3.6
+
+1. Front: Counseling
+   Back:
+   Meaning: Professional advice to help someone with personal problems | การให้คำปรึกษา
+   Word (POS): Counseling (n.)
+   Frequency: Common — schools, mental health, therapy
+   Feeling: Supportive, caring — ให้ความรู้สึกได้รับการดูแล เห็นอกเห็นใจ
+   Example: She went to counseling after the accident.
+
+2. Front: Perceptive
+   Back:
+   Meaning: Quick to notice and understand things | ช่างสังเกต, เข้าใจลึกซึ้ง
+   Word (POS): Perceptive (adj.)
+   Frequency: Common — describing smart, observant people
+   Feeling: Admiring — ให้ความรู้สึกชื่นชม ความฉลาดหลักแหลม
+   Example: That's a very perceptive question.
+
+3. Front: Candidly
+   Back:
+   Meaning: Honestly and openly | อย่างเปิดอก, อย่างจริงใจ
+   Word (POS): Candidly (adv.)
+   Frequency: Less common — interviews, honest talks (speaking candidly)
+   Feeling: Honest, open — ให้ความรู้สึกจริงใจ ไม่ปิดบัง
+   Example: Candidly, I don't think we're ready.
+
+4. Front: Fort
+   Back:
+   Meaning: A strong building used to defend a place | ป้อม
+   Word (POS): Fort (n.)
+   Frequency: Common — history, war, kids' games
+   Feeling: Solid, protective — ให้ความรู้สึกมั่นคง แข็งแรง
+   Example: The soldiers retreated to the fort.
+
+5. Front: Holding down the fort
+   Back:
+   Meaning: Taking care of things while someone is away | เฝ้าที่มั่นไว้, ดูแลแทนชั่วคราว
+   Word (POS): Holding down the fort (idiom)
+   Frequency: Common — work, home, teams
+   Feeling: Responsible, reliable — ให้ความรู้สึกรับผิดชอบ พึ่งพาได้
+   Example: Thanks for holding down the fort while I was away.
+
+6. Front: Emit
+   Back:
+   Meaning: To send out light, heat, sound or gas | ปล่อย, แผ่ (แสง เสียง ความร้อน)
+   Word (POS): Emit (v.)
+   Frequency: Common — science, machines, devices
+   Feeling: Technical, neutral — ให้ความรู้สึกเป็นวิทยาศาสตร์ เป็นกลาง
+   Example: The device emits a faint blue light.
+
+7. Front: Excruciating
+   Back:
+   Meaning: Extremely painful; very embarrassing or boring | เจ็บปวดแสนสาหัส
+   Word (POS): Excruciating (adj.)
+   Frequency: Common — pain; awkward moments
+   Feeling: Agonising — ให้ความรู้สึกทรมานสุด ๆ
+   Example: The pain in my leg was excruciating.
+
+8. Front: Mundane
+   Back:
+   Meaning: Ordinary and not interesting | ธรรมดา, จืดชืด
+   Word (POS): Mundane (adj.)
+   Frequency: Common — daily routines and tasks
+   Feeling: Dull, plain — ให้ความรู้สึกน่าเบื่อ ซ้ำซาก
+   Example: I spent the day on mundane chores.
+
+9. Front: Grave
+   Back:
+   Meaning: A place where a dead person is buried; very serious | หลุมศพ; ร้ายแรง, เคร่งขรึม
+   Word (POS): Grave (n./adj.)
+   Frequency: Common — death; serious situations (grave danger)
+   Feeling: Solemn, serious — ให้ความรู้สึกหนักแน่น เคร่งเครียด
+   Example: She spoke in a grave voice.
+
+10. Front: Exhumed
+   Back:
+   Meaning: Dug a dead body out of the ground | ขุดศพขึ้นมา
+   Word (POS): Exhumed (v.)
+   Frequency: Rare — investigations, history, horror
+   Feeling: Eerie, grim — ให้ความรู้สึกน่าขนลุก มืดหม่น
+   Example: The body was exhumed for further tests.
+
+11. Front: Smithereens
+   Back:
+   Meaning: Small broken pieces (blown to smithereens) | เศษเล็กเศษน้อย, แหลกละเอียด
+   Word (POS): Smithereens (n.)
+   Frequency: Less common — explosions, informal exaggeration
+   Feeling: Dramatic, playful — ให้ความรู้สึกรุนแรงแต่ฟังดูขำ ๆ
+   Example: The vase was smashed to smithereens.
+
+12. Front: Recipient
+   Back:
+   Meaning: A person who receives something | ผู้รับ
+   Word (POS): Recipient (n.)
+   Frequency: Common — awards, letters, donations
+   Feeling: Formal, neutral — ให้ความรู้สึกเป็นทางการ
+   Example: She was the recipient of a national award.
+
+13. Front: Loosely
+   Back:
+   Meaning: Not tightly; not exactly | อย่างหลวม ๆ, คร่าว ๆ
+   Word (POS): Loosely (adv.)
+   Frequency: Common — clothes; "loosely based on"
+   Feeling: Relaxed, inexact — ให้ความรู้สึกไม่เคร่ง ไม่ตรงเป๊ะ
+   Example: The film is loosely based on a true story.
+
+14. Front: Tandem
+   Back:
+   Meaning: Two things working together (in tandem) | ควบคู่กัน, ไปพร้อมกัน
+   Word (POS): Tandem (n.)
+   Frequency: Less common — teamwork, systems, bicycles
+   Feeling: Cooperative — ให้ความรู้สึกร่วมมือกัน ไปด้วยกัน
+   Example: The two teams worked in tandem.
+
+15. Front: Echelons
+   Back:
+   Meaning: Levels of power or authority (the upper echelons) | ระดับชั้น (ในองค์กร)
+   Word (POS): Echelons (n.)
+   Frequency: Rare — organisations, military, society
+   Feeling: Formal, elite — ให้ความรู้สึกเป็นทางการ ห่างไกลระดับสูง
+   Example: The order came from the highest echelons.
+
+16. Front: Impunity
+   Back:
+   Meaning: Freedom from punishment (with impunity) | การรอดพ้นจากการลงโทษ
+   Word (POS): Impunity (n.)
+   Frequency: Less common — crime, injustice, politics
+   Feeling: Unfair, outrageous — ให้ความรู้สึกไม่ยุติธรรม น่าโกรธ
+   Example: They broke the rules with impunity.
+
+17. Front: Immense
+   Back:
+   Meaning: Extremely large or great | มหาศาล, ใหญ่โตมาก
+   Word (POS): Immense (adj.)
+   Frequency: Common — size, power, feelings
+   Feeling: Awe-inspiring — ให้ความรู้สึกยิ่งใหญ่ น่าทึ่ง
+   Example: She felt immense relief.
+
+18. Front: Donor
+   Back:
+   Meaning: A person who gives money, blood or an organ | ผู้บริจาค
+   Word (POS): Donor (n.)
+   Frequency: Common — charity, medicine
+   Feeling: Generous, kind — ให้ความรู้สึกเสียสละ ใจดี
+   Example: An anonymous donor paid for the new library.
+
+19. Front: Infiltrated
+   Back:
+   Meaning: Secretly entered a group or place to get information or cause harm | แทรกซึม
+   Word (POS): Infiltrated (v.)
+   Frequency: Less common — spies, security, crime
+   Feeling: Sneaky, threatening — ให้ความรู้สึกลับ ๆ ล่อ ๆ อันตราย
+   Example: A spy had infiltrated the organisation.
+
+20. Front: Leisurely
+   Back:
+   Meaning: Relaxed and without hurry | อย่างสบาย ๆ ไม่เร่งรีบ
+   Word (POS): Leisurely (adj./adv.)
+   Frequency: Common — walks, meals, holidays
+   Feeling: Calm, pleasant — ให้ความรู้สึกผ่อนคลาย สบายใจ
+   Example: We took a leisurely walk by the river.
+
+21. Front: Sabotage
+   Back:
+   Meaning: To deliberately damage or block something | การก่อวินาศกรรม, การบ่อนทำลาย
+   Word (POS): Sabotage (n./v.)
+   Frequency: Common — war, work rivalry, plans
+   Feeling: Hostile, sneaky — ให้ความรู้สึกมุ่งร้าย ทรยศ
+   Example: Someone tried to sabotage the launch.
+
+22. Front: Preamble
+   Back:
+   Meaning: An introduction before the main part of a speech or document | อารัมภบท, คำนำ
+   Word (POS): Preamble (n.)
+   Frequency: Less common — formal documents, long speeches (without preamble)
+   Feeling: Formal, slow — ให้ความรู้สึกเป็นทางการ เกริ่นยาว
+   Example: Without any preamble, she told us the news.
+
+23. Front: Delirious
+   Back:
+   Meaning: Confused and talking nonsense, often from fever; extremely happy | เพ้อคลั่ง; ดีใจสุดขีด
+   Word (POS): Delirious (adj.)
+   Frequency: Less common — illness; extreme joy
+   Feeling: Feverish, wild — ให้ความรู้สึกสับสนเพ้อ หรือดีใจจนเกินควบคุม
+   Example: He was delirious with fever all night.
+
+24. Front: Cynical
+   Back:
+   Meaning: Believing people act only for themselves | มองโลกในแง่ร้าย, ไม่เชื่อในความดีของคน
+   Word (POS): Cynical (adj.)
+   Frequency: Common — attitudes about people, politics
+   Feeling: Bitter, distrustful — ให้ความรู้สึกขมขื่น ไม่ไว้ใจใคร
+   Example: Years in politics made him cynical.
+
+25. Front: Perimeter
+   Back:
+   Meaning: The outer edge of an area | แนวขอบเขต, เส้นรอบรูป
+   Word (POS): Perimeter (n.)
+   Frequency: Common — security, maths, military
+   Feeling: Guarded, alert — ให้ความรู้สึกเฝ้าระวัง เป็นแนวป้องกัน
+   Example: Guards patrolled the perimeter.
+
+26. Front: Frantic
+   Back:
+   Meaning: Wild with fear or worry; hurried and disorganised | ร้อนรน, ลนลาน
+   Word (POS): Frantic (adj.)
+   Frequency: Common — emergencies, rushing
+   Feeling: Panicked — ให้ความรู้สึกตื่นตระหนก รีบร้อน
+   Example: There was a frantic search for the missing child.
+
+27. Front: Feigned
+   Back:
+   Meaning: Pretended (feigned surprise) | แสร้ง, เสแสร้ง
+   Word (POS): Feigned (adj./v.)
+   Frequency: Less common — hiding real feelings
+   Feeling: Fake, sly — ให้ความรู้สึกไม่จริงใจ เจ้าเล่ห์
+   Example: She feigned surprise at the party.
+
+28. Front: Alley
+   Back:
+   Meaning: A narrow path between buildings | ตรอก, ซอย
+   Word (POS): Alley (n.)
+   Frequency: Common — cities, crime stories
+   Feeling: Narrow, shadowy — ให้ความรู้สึกแคบ มืด อาจน่ากลัว
+   Example: The cat disappeared down a dark alley.
+
+29. Front: Apprehend
+   Back:
+   Meaning: To catch and arrest; (formal) to understand | จับกุม; เข้าใจ
+   Word (POS): Apprehend (v.)
+   Frequency: Less common — police and law
+   Feeling: Official, serious — ให้ความรู้สึกเป็นทางการ จริงจัง
+   Example: Police apprehended the thief at the station.
+
+30. Front: Whim
+   Back:
+   Meaning: A sudden wish to do something, without a reason | ความต้องการชั่ววูบ, อารมณ์ชั่วแล่น
+   Word (POS): Whim (n.)
+   Frequency: Common — spontaneous choices (on a whim)
+   Feeling: Playful, impulsive — ให้ความรู้สึกเอาแต่ใจ ไม่ได้คิดมาก่อน
+   Example: We bought the tickets on a whim.
+
+31. Front: Diverge
+   Back:
+   Meaning: To separate and go in different directions | แยกออกจากกัน, แตกต่าง
+   Word (POS): Diverge (v.)
+   Frequency: Less common — paths, opinions, data
+   Feeling: Parting, distant — ให้ความรู้สึกแยกทาง ห่างกันออกไป
+   Example: Our opinions diverge on this issue.
+
+32. Front: Barring
+   Back:
+   Meaning: Except if; unless something happens | เว้นแต่, ยกเว้น
+   Word (POS): Barring (prep.)
+   Frequency: Less common — plans and forecasts (barring accidents)
+   Feeling: Formal, cautious — ให้ความรู้สึกเป็นทางการ เผื่อเหตุไม่คาดฝัน
+   Example: Barring delays, we'll arrive at noon.
+
+33. Front: Cope
+   Back:
+   Meaning: To deal successfully with something difficult | รับมือ, จัดการได้
+   Word (POS): Cope (v.)
+   Frequency: Very common — stress, loss, hard situations
+   Feeling: Resilient — ให้ความรู้สึกพยายามยืนหยัด อดทน
+   Example: She's learning to cope with the loss.
+
+34. Front: Keep the numbness at bay
+   Back:
+   Meaning: To stop a feeling of emptiness from taking over | กันความรู้สึกด้านชาไม่ให้เข้ามา
+   Word (POS): Keep the numbness at bay (phrase)
+   Frequency: Rare — emotional, literary writing
+   Feeling: Melancholic, fragile — ให้ความรู้สึกเศร้า เปราะบาง พยายามประคองใจ
+   Example: He kept busy to keep the numbness at bay.
+
+35. Front: Riddle
+   Back:
+   Meaning: A puzzling question; (riddled with) full of holes or problems | ปริศนา; เต็มไปด้วย (รู, ปัญหา)
+   Word (POS): Riddle (n./v.)
+   Frequency: Common — puzzles; "riddled with errors"
+   Feeling: Mysterious, playful — ให้ความรู้สึกลึกลับ ชวนขบคิด
+   Example: The old man spoke in riddles.
+
+36. Front: Inseparable
+   Back:
+   Meaning: Always together; impossible to separate | แยกกันไม่ออก
+   Word (POS): Inseparable (adj.)
+   Frequency: Common — close friends, linked ideas
+   Feeling: Close, loyal — ให้ความรู้สึกผูกพัน สนิทสนม
+   Example: The two sisters were inseparable.
+
+37. Front: Confine
+   Back:
+   Meaning: To keep within limits or in a closed space | กักขัง, จำกัด
+   Word (POS): Confine (v.)
+   Frequency: Common — rules, rooms, illness (confined to bed)
+   Feeling: Restrictive — ให้ความรู้สึกถูกจำกัด อึดอัด
+   Example: Please confine your answers to the question.
+
+38. Front: Deteriorating
+   Back:
+   Meaning: Becoming worse | ทรุดลง, เสื่อมลง
+   Word (POS): Deteriorating (v./adj.)
+   Frequency: Common — health, buildings, relationships
+   Feeling: Worrying — ให้ความรู้สึกน่ากังวล แย่ลงเรื่อย ๆ
+   Example: His health is deteriorating quickly.
+
+39. Front: Reimbursement
+   Back:
+   Meaning: Repayment of money someone has spent or lost | การชดใช้เงินคืน
+   Word (POS): Reimbursement (n.)
+   Frequency: Less common — work expenses, insurance
+   Feeling: Formal, practical — ให้ความรู้สึกเป็นทางการ เรื่องเงิน
+   Example: Submit your receipts for reimbursement.
+
+40. Front: Excessive
+   Back:
+   Meaning: More than is necessary or normal | มากเกินไป
+   Word (POS): Excessive (adj.)
+   Frequency: Common — amounts, force, behaviour
+   Feeling: Disapproving — ให้ความรู้สึกเกินพอดี ไม่เห็นด้วย
+   Example: It would already be excessive.
+
+41. Front: Frowns
+   Back:
+   Meaning: Brings the eyebrows together to show anger, worry or thought | ขมวดคิ้ว, หน้านิ่ว
+   Word (POS): Frowns (v./n.)
+   Frequency: Common — facial expressions
+   Feeling: Displeased, thoughtful — ให้ความรู้สึกไม่พอใจ หรือกำลังครุ่นคิด
+   Example: She frowns whenever she reads bad news.
+
+42. Front: Pensive
+   Back:
+   Meaning: Thinking deeply, often about something sad | ครุ่นคิด, เหม่อลอย
+   Word (POS): Pensive (adj.)
+   Frequency: Less common — quiet, reflective moments
+   Feeling: Quiet, wistful — ให้ความรู้สึกเงียบ ๆ ครุ่นคิด ปนเศร้า
+   Example: He looked pensive as he watched the rain.
+
+43. Front: Shone
+   Back:
+   Meaning: Past tense of shine: gave out bright light | ส่องแสง (อดีตของ shine)
+   Word (POS): Shone (v.)
+   Frequency: Common — light, eyes, stories
+   Feeling: Bright, hopeful — ให้ความรู้สึกสว่าง มีความหวัง
+   Example: The moon shone over the lake.
+
+44. Front: Confiscating
+   Back:
+   Meaning: Officially taking something away from someone | ยึด, ริบ
+   Word (POS): Confiscating (v.)
+   Frequency: Less common — school rules, police, customs
+   Feeling: Strict, authoritative — ให้ความรู้สึกเข้มงวด ใช้อำนาจ
+   Example: The teacher is confiscating phones during the exam.
+

@@ -1,0 +1,346 @@
+Deck: Wuwa 3.7
+
+1. Front: Trivial
+   Back:
+   Meaning: Of little value or importance | เล็กน้อย, ไม่สำคัญ
+   Word (POS): Trivial (adj.)
+   Frequency: Common — small problems, trivia
+   Feeling: Minor, dismissive — ให้ความรู้สึกไม่ใช่เรื่องใหญ่
+   Example: Don't worry about such trivial details.
+
+2. Front: Intermittent
+   Back:
+   Meaning: Stopping and starting again, not continuous | เป็นพัก ๆ, ไม่ต่อเนื่อง
+   Word (POS): Intermittent (adj.)
+   Frequency: Less common — weather, signals, pain
+   Feeling: Unstable — ให้ความรู้สึกไม่แน่นอน ขาด ๆ หาย ๆ
+   Example: We had intermittent rain all day.
+
+3. Front: Amnesia
+   Back:
+   Meaning: Loss of memory | ภาวะความจำเสื่อม
+   Word (POS): Amnesia (n.)
+   Frequency: Less common — medicine, mystery stories
+   Feeling: Lost, uneasy — ให้ความรู้สึกว่างเปล่า สับสน
+   Example: After the accident, he suffered from amnesia.
+
+4. Front: Candidly
+   Back:
+   Meaning: Honestly and openly | อย่างเปิดอก, อย่างจริงใจ
+   Word (POS): Candidly (adv.)
+   Frequency: Less common — interviews, honest talks (speaking candidly)
+   Feeling: Honest, open — ให้ความรู้สึกจริงใจ ไม่ปิดบัง
+   Example: She spoke candidly about her past.
+
+5. Front: Botched
+   Back:
+   Meaning: Done badly or clumsily | ทำพลาด, ทำเละ
+   Word (POS): Botched (adj./v.)
+   Frequency: Less common — failed jobs, plans, operations
+   Feeling: Embarrassing, messy — ให้ความรู้สึกพัง น่าอาย
+   Example: It was a botched rescue attempt.
+
+6. Front: Skeptical
+   Back:
+   Meaning: Doubting that something is true | ไม่เชื่อ, สงสัย
+   Word (POS): Skeptical (adj.)
+   Frequency: Common — claims, promises, new ideas
+   Feeling: Doubtful — ให้ความรู้สึกไม่ค่อยเชื่อ ระแวง
+   Example: I'm skeptical about his story.
+
+7. Front: Confined
+   Back:
+   Meaning: Kept in a small or closed space; limited | ถูกจำกัด, ถูกกักไว้
+   Word (POS): Confined (adj.)
+   Frequency: Common — rooms, illness, rules
+   Feeling: Trapped — ให้ความรู้สึกอึดอัด ถูกขัง
+   Example: He was confined to his room for a week.
+
+8. Front: Contingency
+   Back:
+   Meaning: A possible future event you plan for | เหตุการณ์ที่อาจเกิดขึ้น, เหตุฉุกเฉิน
+   Word (POS): Contingency (n.)
+   Frequency: Less common — planning (contingency plan)
+   Feeling: Prepared, cautious — ให้ความรู้สึกเตรียมพร้อม รอบคอบ
+   Example: We need a contingency plan in case it fails.
+
+9. Front: Astronomical
+   Back:
+   Meaning: Extremely large (cost or number); related to astronomy | มหาศาล; เกี่ยวกับดาราศาสตร์
+   Word (POS): Astronomical (adj.)
+   Frequency: Common — prices, numbers, space science
+   Feeling: Shocking — ให้ความรู้สึกตกใจกับความมากมาย
+   Example: The repair bill was astronomical.
+
+10. Front: Funnel
+   Back:
+   Meaning: A cone-shaped tube; to direct things to one place | กรวย; ส่งผ่าน, ทุ่มไปที่
+   Word (POS): Funnel (n./v.)
+   Frequency: Common — kitchens; money or resources
+   Feeling: Focused, directed — ให้ความรู้สึกรวมศูนย์ ไหลไปทางเดียว
+   Example: They funneled all their money into the project.
+
+11. Front: Conscience
+   Back:
+   Meaning: The inner sense of right and wrong | มโนธรรม, สำนึกผิดชอบ
+   Word (POS): Conscience (n.)
+   Frequency: Common — moral choices (guilty conscience)
+   Feeling: Moral, heavy — ให้ความรู้สึกสำนึก ชั่งใจ
+   Example: My conscience wouldn't let me lie.
+
+12. Front: Chronic
+   Back:
+   Meaning: Lasting a long time or keeps coming back | เรื้อรัง
+   Word (POS): Chronic (adj.)
+   Frequency: Common — illness, pain, long-term problems
+   Feeling: Heavy, wearing — ให้ความรู้สึกหนักใจ เป็นมานาน
+   Example: The city has a chronic shortage of water.
+
+13. Front: Liability
+   Back:
+   Meaning: Legal responsibility; someone or something that causes problems | ภาระ, ความรับผิดชอบทางกฎหมาย
+   Word (POS): Liability (n.)
+   Frequency: Common — law, business, teams
+   Feeling: Burdensome — ให้ความรู้สึกเป็นภาระ ตัวถ่วง
+   Example: He became a liability to the team.
+
+14. Front: Resentment
+   Back:
+   Meaning: A feeling of anger at being treated unfairly | ความขุ่นเคือง, ความแค้นใจ
+   Word (POS): Resentment (n.)
+   Frequency: Common — relationships, injustice
+   Feeling: Bitter — ให้ความรู้สึกขุ่นข้องใจ เก็บกด
+   Example: She couldn't hide her resentment.
+
+15. Front: Plaque
+   Back:
+   Meaning: A flat sign with writing on it; a deposit on teeth | แผ่นป้ายจารึก; คราบหินปูน
+   Word (POS): Plaque (n.)
+   Frequency: Common — memorials, awards; dentists
+   Feeling: Commemorative — ให้ความรู้สึกเป็นอนุสรณ์ ระลึกถึง
+   Example: A plaque marks the house where she was born.
+
+16. Front: Revulsion
+   Back:
+   Meaning: A strong feeling of disgust | ความรู้สึกขยะแขยง
+   Word (POS): Revulsion (n.)
+   Frequency: Less common — horror, strong moral reactions
+   Feeling: Disgusted — ให้ความรู้สึกรังเกียจ อยากถอยหนี
+   Example: She stepped back in revulsion.
+
+17. Front: Keener
+   Back:
+   Meaning: More eager; sharper (comparative of keen) | กระตือรือร้นกว่า; แหลมคมกว่า
+   Word (POS): Keener (adj.)
+   Frequency: Common — interest, senses (a keener eye)
+   Feeling: Eager, sharp — ให้ความรู้สึกตั้งใจ เฉียบคม
+   Example: Nobody was keener to help than him.
+
+18. Front: Assimilation
+   Back:
+   Meaning: The process of absorbing something or becoming part of a group | การกลืนกลาย, การซึมซับ
+   Word (POS): Assimilation (n.)
+   Frequency: Less common — culture, learning, biology
+   Feeling: Absorbing, losing identity — ให้ความรู้สึกถูกกลืนเข้าไปเป็นส่วนหนึ่ง
+   Example: Assimilation into a new culture takes time.
+
+19. Front: Effusive
+   Back:
+   Meaning: Showing strong feelings in a very open, enthusiastic way | แสดงออกอย่างล้นหลาม
+   Word (POS): Effusive (adj.)
+   Frequency: Less common — praise, thanks, greetings
+   Feeling: Warm, overflowing — ให้ความรู้สึกอบอุ่น ล้นเหลือ
+   Example: She was effusive in her thanks.
+
+20. Front: Ravings
+   Back:
+   Meaning: Wild, crazy talk that makes no sense | คำพูดเพ้อเจ้อ
+   Word (POS): Ravings (n.)
+   Frequency: Rare — madness, fever, villains
+   Feeling: Unhinged — ให้ความรู้สึกบ้าคลั่ง ไร้เหตุผล
+   Example: No one listened to the ravings of the old man.
+
+21. Front: Tempting
+   Back:
+   Meaning: Attractive, making you want to do or have it | น่าดึงดูดใจ, ยั่วยวน
+   Word (POS): Tempting (adj.)
+   Frequency: Common — offers, food, choices
+   Feeling: Alluring — ให้ความรู้สึกอยากได้ อดใจยาก
+   Example: The offer is very tempting.
+
+22. Front: Retribution
+   Back:
+   Meaning: Punishment for something wrong that was done | การแก้แค้น, การลงโทษอย่างสาสม
+   Word (POS): Retribution (n.)
+   Frequency: Less common — revenge, justice, stories
+   Feeling: Vengeful, grim — ให้ความรู้สึกแค้น ต้องชดใช้
+   Example: They feared retribution from the gang.
+
+23. Front: Ephemeral
+   Back:
+   Meaning: Lasting a very short time | ชั่วคราว, ประเดี๋ยวประด๋าว
+   Word (POS): Ephemeral (adj.)
+   Frequency: Less common — beauty, fame, moments
+   Feeling: Fleeting, poetic — ให้ความรู้สึกงดงามแต่ไม่จีรัง
+   Example: Fame on the internet is ephemeral.
+
+24. Front: Imminent
+   Back:
+   Meaning: About to happen very soon | ใกล้จะเกิดขึ้น
+   Word (POS): Imminent (adj.)
+   Frequency: Common — danger, storms, decisions
+   Feeling: Urgent, tense — ให้ความรู้สึกเร่งด่วน ใกล้ตัว
+   Example: A storm warning said danger was imminent.
+
+25. Front: Unobstructed
+   Back:
+   Meaning: Clear, with nothing blocking it | ไม่มีสิ่งกีดขวาง, โล่ง
+   Word (POS): Unobstructed (adj.)
+   Frequency: Less common — views, paths
+   Feeling: Open, free — ให้ความรู้สึกโล่ง โปร่ง
+   Example: The room has an unobstructed view of the sea.
+
+26. Front: Hindrance
+   Back:
+   Meaning: Something that makes progress difficult | สิ่งขัดขวาง, ตัวถ่วง
+   Word (POS): Hindrance (n.)
+   Frequency: Less common — plans, work, help vs. hindrance
+   Feeling: Frustrating — ให้ความรู้สึกติดขัด น่าหงุดหงิด
+   Example: The heavy bag was more of a hindrance than a help.
+
+27. Front: Viable
+   Back:
+   Meaning: Able to work successfully | เป็นไปได้, ใช้การได้
+   Word (POS): Viable (adj.)
+   Frequency: Common — plans, business, options
+   Feeling: Practical, hopeful — ให้ความรู้สึกมีทางเป็นไปได้
+   Example: Is this a viable solution?
+
+28. Front: Content
+   Back:
+   Meaning: What is inside something; satisfied and happy | เนื้อหา; พอใจ
+   Word (POS): Content (n./adj.)
+   Frequency: Very common — media and documents; feelings
+   Feeling: Peaceful (adj.) — ในความหมายพอใจ ให้ความรู้สึกสงบ อิ่มใจ
+   Example: She seemed content with her quiet life.
+
+29. Front: Deteriorating
+   Back:
+   Meaning: Becoming worse | ทรุดลง, เสื่อมลง
+   Word (POS): Deteriorating (v./adj.)
+   Frequency: Common — health, buildings, relationships
+   Feeling: Worrying — ให้ความรู้สึกน่ากังวล แย่ลงเรื่อย ๆ
+   Example: The weather is deteriorating fast.
+
+30. Front: Ground zero
+   Back:
+   Meaning: The exact place where an explosion or disaster happened | จุดศูนย์กลางเหตุ (ระเบิด/หายนะ)
+   Word (POS): Ground zero (n.)
+   Frequency: Less common — disasters, news; the starting point of something
+   Feeling: Grim, intense — ให้ความรู้สึกหนัก เป็นศูนย์กลางความเสียหาย
+   Example: The lab was ground zero for the outbreak.
+
+31. Front: Unconventional
+   Back:
+   Meaning: Different from what is usual | นอกกรอบ, ไม่ธรรมดา
+   Word (POS): Unconventional (adj.)
+   Frequency: Common — ideas, styles, methods
+   Feeling: Creative, bold — ให้ความรู้สึกสร้างสรรค์ แหวกแนว
+   Example: He took an unconventional path to success.
+
+32. Front: Lackadaisical
+   Back:
+   Meaning: Lazy, showing little effort or interest | เฉื่อยชา, ไม่กระตือรือร้น
+   Word (POS): Lackadaisical (adj.)
+   Frequency: Rare — work attitude, criticism
+   Feeling: Lazy, careless — ให้ความรู้สึกเรื่อยเปื่อย ไม่ใส่ใจ
+   Example: His lackadaisical attitude annoyed the coach.
+
+33. Front: Readily
+   Back:
+   Meaning: Easily; quickly and willingly | อย่างง่ายดาย; อย่างเต็มใจ
+   Word (POS): Readily (adv.)
+   Frequency: Common — availability, agreement
+   Feeling: Willing, easy — ให้ความรู้สึกสะดวก เต็มใจ
+   Example: The information is readily available online.
+
+34. Front: Composure
+   Back:
+   Meaning: The state of being calm and in control | ความสงบ, ความเยือกเย็น
+   Word (POS): Composure (n.)
+   Frequency: Less common — pressure, emotions (lose/regain composure)
+   Feeling: Calm, dignified — ให้ความรู้สึกสุขุม มีสติ
+   Example: She quickly regained her composure.
+
+35. Front: Rewinding
+   Back:
+   Meaning: Going back to an earlier point in a recording or in time | กรอกลับ, ย้อนกลับ
+   Word (POS): Rewinding (v.)
+   Frequency: Common — videos, memories, time travel
+   Feeling: Nostalgic — ให้ความรู้สึกย้อนวันวาน
+   Example: I kept rewinding the scene to watch it again.
+
+36. Front: Spherical
+   Back:
+   Meaning: Shaped like a ball | เป็นทรงกลม
+   Word (POS): Spherical (adj.)
+   Frequency: Less common — science, shapes, objects
+   Feeling: Technical, neutral — ให้ความรู้สึกเป็นวิทยาศาสตร์ เป็นกลาง
+   Example: The device was small and spherical.
+
+37. Front: Compelling
+   Back:
+   Meaning: Very interesting or convincing | น่าเชื่อถือ, น่าสนใจมาก
+   Word (POS): Compelling (adj.)
+   Frequency: Common — stories, arguments, evidence
+   Feeling: Gripping, persuasive — ให้ความรู้สึกดึงดูด น่าเชื่อ
+   Example: She made a compelling argument.
+
+38. Front: Justifies
+   Back:
+   Meaning: Shows or proves something is right or reasonable | ให้เหตุผลสนับสนุน, ทำให้ชอบธรรม
+   Word (POS): Justifies (v.)
+   Frequency: Common — decisions, actions (the end justifies the means)
+   Feeling: Defensive, reasoning — ให้ความรู้สึกหาเหตุผลมารองรับ
+   Example: Nothing justifies that kind of cruelty.
+
+39. Front: Wrought
+   Back:
+   Meaning: Caused (wrought havoc); shaped by hammering (wrought iron) | ก่อให้เกิด; ซึ่งตีขึ้นรูป
+   Word (POS): Wrought (v./adj.)
+   Frequency: Rare — literary writing; metalwork
+   Feeling: Old-fashioned, dramatic — ให้ความรู้สึกโบราณ ขลัง
+   Example: The storm wrought havoc on the coast.
+
+40. Front: Perilous
+   Back:
+   Meaning: Full of danger | อันตรายมาก
+   Word (POS): Perilous (adj.)
+   Frequency: Less common — journeys, situations
+   Feeling: Threatening — ให้ความรู้สึกเสี่ยงอันตราย
+   Example: They began a perilous journey across the ice.
+
+41. Front: Steep
+   Back:
+   Meaning: Rising or falling sharply; (price) too high; to soak in liquid | ชัน; แพงเกินไป; แช่
+   Word (POS): Steep (adj./v.)
+   Frequency: Common — hills, prices, tea
+   Feeling: Difficult, demanding — ให้ความรู้สึกยาก หนัก ต้องใช้แรง
+   Example: The price was too steep for me.
+
+42. Front: Futility
+   Back:
+   Meaning: The fact of having no useful result | ความไร้ประโยชน์, ความสูญเปล่า
+   Word (POS): Futility (n.)
+   Frequency: Less common — hopeless efforts, war
+   Feeling: Hopeless — ให้ความรู้สึกสิ้นหวัง ทำไปก็เปล่าประโยชน์
+   Example: He realised the futility of arguing.
+
+43. Front: Enviably
+   Back:
+   Meaning: In a way that others would like to have | อย่างน่าอิจฉา
+   Word (POS): Enviably (adv.)
+   Frequency: Rare — describing luck, skill or calm
+   Feeling: Admiring — ให้ความรู้สึกชื่นชมปนอิจฉา
+   Example: She remained enviably calm.
+

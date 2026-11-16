@@ -1,0 +1,594 @@
+Deck: Wuwa 3.1
+
+1. Front: Fierce
+   Back:
+   Meaning: Very strong, aggressive, or determined | ดุร้าย, รุนแรง, มุ่งมั่นอย่างแรงกล้า
+   Word (POS): Fierce (adj.)
+   Frequency: Common — strong emotions, intense competition, aggressive behaviour
+   Feeling: Intense, powerful — ให้ความรู้สึกรุนแรง ทรงพลัง ไม่ยอมใคร
+   Example: The two teams faced fierce competition.
+
+2. Front: Brink
+   Back:
+   Meaning: The edge of a situation, just before something happens | จุดใกล้ถึง, ขอบเหว
+   Word (POS): Brink (n.)
+   Frequency: Common — something big or dangerous is about to happen (on the brink of)
+   Feeling: Tense, on edge — ให้ความรู้สึกตึงเครียด เหมือนยืนอยู่ริมขอบ
+   Example: The company was on the brink of bankruptcy.
+
+3. Front: Synchronist
+   Back:
+   Meaning: Someone who makes events or actions happen at the same time | ผู้ทำให้เหตุการณ์หรือการกระทำเกิดขึ้นพร้อมกัน
+   Word (POS): Synchronist (n.)
+   Frequency: Rare — specialised or fantasy/sci-fi contexts
+   Feeling: Mysterious, technical — ให้ความรู้สึกลึกลับ เป็นศัพท์เฉพาะทาง
+   Example: As a synchronist, she could link her mind with the machine.
+
+4. Front: Issue
+   Back:
+   Meaning: A problem or topic being discussed; to officially give out something | ปัญหา, ประเด็น; ออกหรือประกาศอย่างเป็นทางการ
+   Word (POS): Issue (n./v.)
+   Frequency: Very common — daily conversation, work and technology
+   Feeling: Neutral, practical — เป็นคำกลาง ๆ ใช้ได้ทั่วไป
+   Example: We need to fix this issue before the deadline.
+
+5. Front: Intrigued
+   Back:
+   Meaning: Very interested and curious to know more | สนใจ, อยากรู้อยากเห็น
+   Word (POS): Intrigued (adj.)
+   Frequency: Common — reacting to something new or mysterious
+   Feeling: Curious, drawn in — ให้ความรู้สึกอยากรู้ ถูกดึงดูดความสนใจ
+   Example: I was intrigued by the strange signal.
+
+6. Front: Presumed
+   Back:
+   Meaning: Believed to be true without proof | สันนิษฐาน, ถูกเชื่อว่า
+   Word (POS): Presumed (v./adj.)
+   Frequency: Common — news, reports and formal statements (presumed dead)
+   Feeling: Uncertain, formal — ให้ความรู้สึกไม่แน่ชัด เป็นทางการ
+   Example: The pilot was presumed dead after the crash.
+
+7. Front: Figment
+   Back:
+   Meaning: Something that seems real but exists only in the mind | สิ่งที่จินตนาการขึ้นเอง
+   Word (POS): Figment (n.)
+   Frequency: Less common — almost always "a figment of your imagination"
+   Feeling: Dreamy, doubtful — ให้ความรู้สึกเหมือนภาพลวง ไม่มีอยู่จริง
+   Example: Maybe the voice was just a figment of my imagination.
+
+8. Front: Turned it inside out
+   Back:
+   Meaning: Searched a place very thoroughly | ค้นจนทั่ว, รื้อจนพรุน
+   Word (POS): Turned it inside out (idiom)
+   Frequency: Common — looking for something lost
+   Feeling: Frantic, thorough — ให้ความรู้สึกรีบร้อน ค้นทุกซอกทุกมุม
+   Example: I turned my room inside out looking for my keys.
+
+9. Front: On the fritz
+   Back:
+   Meaning: (of a machine) not working properly | เสีย, ทำงานผิดปกติ
+   Word (POS): On the fritz (idiom)
+   Frequency: Less common — informal talk about devices
+   Feeling: Casual, annoyed — ให้ความรู้สึกเป็นกันเอง ปนรำคาญ
+   Example: The radio is on the fritz again.
+
+10. Front: Unorthodox
+   Back:
+   Meaning: Different from what is usual or traditional | นอกแบบแผน, ไม่ธรรมดา
+   Word (POS): Unorthodox (adj.)
+   Frequency: Common — methods, ideas and styles
+   Feeling: Bold, unusual — ให้ความรู้สึกแหวกแนว กล้าแตกต่าง
+   Example: Her unorthodox methods actually worked.
+
+11. Front: Averted
+   Back:
+   Meaning: Prevented something bad from happening; turned your eyes away | หลีกเลี่ยงได้, ป้องกันไว้ได้; เบือนหน้าหนี
+   Word (POS): Averted (v.)
+   Frequency: Common — disasters avoided; avoiding eye contact
+   Feeling: Relieved; shy or guilty — รอดหวุดหวิดอย่างโล่งใจ หรือเขินอาย/รู้สึกผิดเมื่อเบือนหน้า
+   Example: A disaster was narrowly averted.
+
+12. Front: Tethered
+   Back:
+   Meaning: Tied so it cannot move far; closely linked to something | ถูกผูกไว้, ถูกล่ามไว้
+   Word (POS): Tethered (adj./v.)
+   Frequency: Less common — ropes and animals; emotional or digital connections
+   Feeling: Bound, restricted — ให้ความรู้สึกถูกผูกมัด ไปไหนไม่ได้ไกล
+   Example: The boat was tethered to the dock.
+
+13. Front: Wrench
+   Back:
+   Meaning: A tool for turning nuts; to pull or twist suddenly and hard | ประแจ; บิด, กระชาก
+   Word (POS): Wrench (n./v.)
+   Frequency: Common — tools; sudden violent movement; emotional pain
+   Feeling: Forceful, painful — ให้ความรู้สึกรุนแรง ฉับพลัน เจ็บปวด
+   Example: He wrenched the door open.
+
+14. Front: Wrecked
+   Back:
+   Meaning: Badly damaged or destroyed; (informal) very tired | พังยับเยิน; เหนื่อยหมดแรง
+   Word (POS): Wrecked (adj.)
+   Frequency: Common — accidents; feeling exhausted
+   Feeling: Broken, drained — ให้ความรู้สึกพังทลาย หมดสภาพ
+   Example: After the long trip, I was completely wrecked.
+
+15. Front: Glossed
+   Back:
+   Meaning: Dealt with something only briefly to avoid it (gloss over) | มองข้าม, พูดผ่าน ๆ
+   Word (POS): Glossed (v.)
+   Frequency: Less common — avoiding uncomfortable details
+   Feeling: Evasive — ให้ความรู้สึกเลี่ยง ไม่อยากพูดตรง ๆ
+   Example: He glossed over the real reason he left.
+
+16. Front: Prying
+   Back:
+   Meaning: Too interested in other people's private affairs; forcing open | สอดรู้สอดเห็น; งัด
+   Word (POS): Prying (adj./v.)
+   Frequency: Common — nosy people; opening something with force
+   Feeling: Intrusive, nosy — ให้ความรู้สึกน่ารำคาญ ล้ำเส้นความเป็นส่วนตัว
+   Example: Keep your secrets away from prying eyes.
+
+17. Front: Possession
+   Back:
+   Meaning: Owning something; something owned; being controlled by a spirit | การครอบครอง, ทรัพย์สิน; การถูกสิง
+   Word (POS): Possession (n.)
+   Frequency: Common — property and law; horror stories
+   Feeling: Neutral; eerie in supernatural sense — ปกติเป็นกลาง แต่ถ้าหมายถึงการถูกสิงจะให้ความรู้สึกน่าขนลุก
+   Example: The letter is still in my possession.
+
+18. Front: Interrogated
+   Back:
+   Meaning: Questioned closely and aggressively, often by police | ถูกสอบสวน, ถูกซักถาม
+   Word (POS): Interrogated (v.)
+   Frequency: Common — police, military and crime stories
+   Feeling: Tense, pressured — ให้ความรู้สึกกดดัน ถูกบีบคั้น
+   Example: The suspect was interrogated for hours.
+
+19. Front: Over a tapped line
+   Back:
+   Meaning: Through a phone line someone is secretly listening to | ทางสายโทรศัพท์ที่ถูกดักฟัง
+   Word (POS): Over a tapped line (phrase)
+   Frequency: Rare — spy and crime stories
+   Feeling: Secretive, risky — ให้ความรู้สึกระแวง ต้องระวังคำพูด
+   Example: We can't talk about it over a tapped line.
+
+20. Front: Auditorium
+   Back:
+   Meaning: A large room or building where an audience sits | หอประชุม
+   Word (POS): Auditorium (n.)
+   Frequency: Common — schools, concerts and events
+   Feeling: Neutral, formal — เป็นคำกลาง ๆ บรรยากาศงานพิธี
+   Example: The ceremony was held in the school auditorium.
+
+21. Front: Alias
+   Back:
+   Meaning: A false or alternative name | ชื่อแฝง, นามแฝง
+   Word (POS): Alias (n.)
+   Frequency: Common — spies, criminals, online names
+   Feeling: Secretive — ให้ความรู้สึกลึกลับ ปกปิดตัวตน
+   Example: He travelled under an alias.
+
+22. Front: Epitaph
+   Back:
+   Meaning: Words written on a gravestone about the dead person | คำจารึกบนหลุมศพ
+   Word (POS): Epitaph (n.)
+   Frequency: Less common — graves, memorials, literature
+   Feeling: Solemn, sad — ให้ความรู้สึกเศร้า สงบ ระลึกถึง
+   Example: Her epitaph read: "She lived to help others."
+
+23. Front: Student rep
+   Back:
+   Meaning: A student chosen to speak for other students | ตัวแทนนักเรียน
+   Word (POS): Student rep (n.)
+   Frequency: Common — school and university life
+   Feeling: Friendly, everyday — ให้ความรู้สึกเป็นกันเอง ชีวิตในโรงเรียน
+   Example: She was elected student rep for our class.
+
+24. Front: Extracurriculars
+   Back:
+   Meaning: School activities outside normal lessons, like clubs and sports | กิจกรรมนอกหลักสูตร
+   Word (POS): Extracurriculars (n.)
+   Frequency: Common — school, university applications
+   Feeling: Busy, positive — ให้ความรู้สึกกระตือรือร้น ชีวิตนักเรียนที่ยุ่ง
+   Example: Between classes and extracurriculars, I have no free time.
+
+25. Front: Dabbler
+   Back:
+   Meaning: Someone who tries an activity casually, not seriously | คนที่ลองทำหลายอย่างแบบผิวเผิน
+   Word (POS): Dabbler (n.)
+   Frequency: Less common — hobbies and skills
+   Feeling: Light, slightly dismissive — ให้ความรู้สึกไม่จริงจัง บางทีก็แฝงการดูแคลน
+   Example: I'm just a dabbler in painting.
+
+26. Front: Bluntly
+   Back:
+   Meaning: In a direct way, without trying to be polite | อย่างตรงไปตรงมา, พูดไม่อ้อมค้อม
+   Word (POS): Bluntly (adv.)
+   Frequency: Common — honest opinions (to put it bluntly)
+   Feeling: Direct, harsh — ให้ความรู้สึกตรงแรง อาจทำให้เจ็บ
+   Example: To put it bluntly, your plan won't work.
+
+27. Front: Hid
+   Back:
+   Meaning: Past tense of hide: put or kept out of sight | ซ่อน (อดีตของ hide)
+   Word (POS): Hid (v.)
+   Frequency: Very common — everyday stories
+   Feeling: Secretive, nervous — ให้ความรู้สึกปกปิด กลัวถูกพบ
+   Example: She hid the letter under her pillow.
+
+28. Front: White-knuckling
+   Back:
+   Meaning: Getting through something scary or hard by pure willpower | กัดฟันอดทน, เกร็งสู้
+   Word (POS): White-knuckling (v.)
+   Frequency: Less common — fear, stress, holding on tightly
+   Feeling: Tense, strained — ให้ความรู้สึกเกร็ง กลัว แต่ฝืนทน
+   Example: I spent the whole flight white-knuckling the armrest.
+
+29. Front: Lush
+   Back:
+   Meaning: (of plants) growing thick and healthy; rich and comfortable | เขียวชอุ่ม, อุดมสมบูรณ์; หรูหรา
+   Word (POS): Lush (adj.)
+   Frequency: Common — nature, gardens, luxury
+   Feeling: Fresh, rich — ให้ความรู้สึกสดชื่น อุดมสมบูรณ์
+   Example: The valley was lush and green after the rain.
+
+30. Front: Cataclysm
+   Back:
+   Meaning: A sudden violent event that causes great change or destruction | มหันตภัย, หายนะครั้งใหญ่
+   Word (POS): Cataclysm (n.)
+   Frequency: Less common — disasters, history, fantasy worlds
+   Feeling: Dramatic, terrifying — ให้ความรู้สึกยิ่งใหญ่ น่ากลัว เปลี่ยนโลก
+   Example: The cataclysm wiped out most of the city.
+
+31. Front: Glean
+   Back:
+   Meaning: To collect information slowly, in small amounts | รวบรวม (ข้อมูล) ทีละเล็กทีละน้อย
+   Word (POS): Glean (v.)
+   Frequency: Less common — research and investigation
+   Feeling: Careful, patient — ให้ความรู้สึกค่อย ๆ เก็บเล็กผสมน้อย
+   Example: We gleaned a few clues from the old records.
+
+32. Front: Debris
+   Back:
+   Meaning: Broken pieces left after something is destroyed | เศษซาก, เศษหักพัง
+   Word (POS): Debris (n.)
+   Frequency: Common — accidents, storms, explosions
+   Feeling: Messy, ruined — ให้ความรู้สึกเละเทะ หลังเกิดเหตุร้าย
+   Example: Debris was scattered across the road.
+
+33. Front: Wreckage
+   Back:
+   Meaning: The remains of something badly damaged | ซากปรักหักพัง
+   Word (POS): Wreckage (n.)
+   Frequency: Common — crashes and disasters
+   Feeling: Grim, heavy — ให้ความรู้สึกหดหู่ สูญเสีย
+   Example: Rescuers searched the wreckage for survivors.
+
+34. Front: Containment
+   Back:
+   Meaning: Keeping something harmful under control or within limits | การควบคุมไม่ให้แพร่กระจาย, การกักกัน
+   Word (POS): Containment (n.)
+   Frequency: Less common — disasters, disease, science fiction
+   Feeling: Serious, urgent — ให้ความรู้สึกจริงจัง ต้องควบคุมสถานการณ์
+   Example: The team worked on containment of the leak.
+
+35. Front: Glimpsed
+   Back:
+   Meaning: Saw something for a very short time or only partly | เห็นแวบ ๆ
+   Word (POS): Glimpsed (v.)
+   Frequency: Common — brief sightings
+   Feeling: Fleeting, curious — ให้ความรู้สึกแวบเดียว อยากเห็นอีก
+   Example: I glimpsed a figure in the window.
+
+36. Front: Obstacles
+   Back:
+   Meaning: Things that block the way or make progress hard | อุปสรรค, สิ่งกีดขวาง
+   Word (POS): Obstacles (n.)
+   Frequency: Very common — challenges in life, work or a path
+   Feeling: Challenging — ให้ความรู้สึกท้าทาย ต้องฝ่าฟัน
+   Example: We overcame many obstacles to finish the project.
+
+37. Front: Competing
+   Back:
+   Meaning: Trying to win against others; (of needs) not all able to be met | แข่งขัน; ขัดแย้งกัน
+   Word (POS): Competing (v./adj.)
+   Frequency: Common — sports, business, priorities
+   Feeling: Pressured, torn — ให้ความรู้สึกกดดัน ต้องเลือก
+   Example: She had to balance competing demands.
+
+38. Front: Discretion
+   Back:
+   Meaning: Freedom to decide; care not to reveal private information | ดุลยพินิจ; ความรอบคอบ, การเก็บความลับ
+   Word (POS): Discretion (n.)
+   Frequency: Common — work rules, privacy (at your discretion)
+   Feeling: Careful, trustworthy — ให้ความรู้สึกสุขุม ไว้ใจได้
+   Example: Please handle this matter with discretion.
+
+39. Front: Confidants
+   Back:
+   Meaning: People you trust and tell your secrets to | คนสนิทที่ไว้ใจได้
+   Word (POS): Confidants (n.)
+   Frequency: Less common — close friendships
+   Feeling: Warm, trusting — ให้ความรู้สึกอบอุ่น ไว้เนื้อเชื่อใจ
+   Example: She was one of his closest confidants.
+
+40. Front: Composed
+   Back:
+   Meaning: Calm and in control of your feelings; made up of parts | สงบนิ่ง, ใจเย็น; ประกอบด้วย
+   Word (POS): Composed (adj./v.)
+   Frequency: Common — staying calm under pressure; describing parts
+   Feeling: Calm, steady — ให้ความรู้สึกนิ่ง มั่นคง
+   Example: She stayed composed during the interview.
+
+41. Front: Probe
+   Back:
+   Meaning: To investigate something thoroughly; a device sent to explore | สืบสวน, ตรวจค้น; ยานสำรวจ
+   Word (POS): Probe (v./n.)
+   Frequency: Common — investigations, science, space
+   Feeling: Searching, serious — ให้ความรู้สึกค้นลึก จริงจัง
+   Example: Scientists sent a probe to study the planet.
+
+42. Front: Hence
+   Back:
+   Meaning: For this reason; therefore | ดังนั้น, ด้วยเหตุนี้
+   Word (POS): Hence (adv.)
+   Frequency: Common — formal writing and explanations
+   Feeling: Formal, logical — ให้ความรู้สึกเป็นทางการ มีเหตุผล
+   Example: The road was closed, hence the delay.
+
+43. Front: Dissolution
+   Back:
+   Meaning: The ending or breaking up of something, like a group | การสลายตัว, การยุบ
+   Word (POS): Dissolution (n.)
+   Frequency: Less common — organisations, marriages, parliament
+   Feeling: Final, sad — ให้ความรู้สึกจบสิ้น แตกสลาย
+   Example: The scandal led to the dissolution of the council.
+
+44. Front: Sliver
+   Back:
+   Meaning: A small, thin piece; a very small amount | ชิ้นเล็ก ๆ บาง ๆ, เสี้ยว
+   Word (POS): Sliver (n.)
+   Frequency: Common — food, light, hope (a sliver of hope)
+   Feeling: Small, fragile — ให้ความรู้สึกเล็กน้อย เปราะบาง
+   Example: A sliver of light came through the door.
+
+45. Front: Chronic
+   Back:
+   Meaning: Lasting a long time or keeps coming back | เรื้อรัง
+   Word (POS): Chronic (adj.)
+   Frequency: Common — illness, pain, long-term problems
+   Feeling: Heavy, wearing — ให้ความรู้สึกหนักใจ เป็นมานาน
+   Example: He suffers from chronic back pain.
+
+46. Front: Envelope
+   Back:
+   Meaning: A paper cover for a letter; the limits of what is possible | ซองจดหมาย; ขอบเขต
+   Word (POS): Envelope (n.)
+   Frequency: Very common — letters; "push the envelope"
+   Feeling: Neutral; daring (idiom) — ปกติเป็นกลาง แต่สำนวน push the envelope ให้ความรู้สึกท้าทายขีดจำกัด
+   Example: She slid the note into an envelope.
+
+47. Front: Scatter
+   Back:
+   Meaning: To spread things over an area; to run in different directions | กระจาย, โปรย, แตกฮือ
+   Word (POS): Scatter (v.)
+   Frequency: Common — objects, crowds, animals
+   Feeling: Chaotic, sudden — ให้ความรู้สึกวุ่นวาย กระจัดกระจาย
+   Example: The birds scattered when the dog ran in.
+
+48. Front: Crawl over
+   Back:
+   Meaning: To move slowly across on hands and knees; to examine every detail | คลานข้าม, ไต่ไปทั่ว
+   Word (POS): Crawl over (phr. v.)
+   Frequency: Less common — climbing; checking carefully
+   Feeling: Slow, creepy — ให้ความรู้สึกช้า ๆ บางทีน่าขนลุก
+   Example: Ants crawled over the leftover food.
+
+49. Front: Nose-dive
+   Back:
+   Meaning: A sudden steep fall | ดิ่งลงอย่างรวดเร็ว
+   Word (POS): Nose-dive (n./v.)
+   Frequency: Common — planes, prices, mood
+   Feeling: Dramatic, alarming — ให้ความรู้สึกตกฮวบ น่าตกใจ
+   Example: The company's shares took a nose-dive.
+
+50. Front: Stumbled around
+   Back:
+   Meaning: Walked around unsteadily; did things without clear direction | เดินโซซัดโซเซไปมา; งมไปเรื่อย
+   Word (POS): Stumbled around (phr. v.)
+   Frequency: Common — darkness, tiredness, confusion
+   Feeling: Clumsy, lost — ให้ความรู้สึกงุ่มง่าม หลงทาง
+   Example: I stumbled around in the dark looking for the switch.
+
+51. Front: Scoop me up
+   Back:
+   Meaning: Pick me up quickly in your arms | ช้อนตัวฉันขึ้นมา, อุ้มฉันขึ้น
+   Word (POS): Scoop me up (phrase)
+   Frequency: Common — affectionate or rescue moments
+   Feeling: Warm, protective — ให้ความรู้สึกอบอุ่น ได้รับการปกป้อง
+   Example: If I fall, will you scoop me up?
+
+52. Front: Apprentice
+   Back:
+   Meaning: Someone learning a skill by working for an expert | ลูกมือฝึกงาน, ศิษย์
+   Word (POS): Apprentice (n.)
+   Frequency: Common — trades, crafts, master and student
+   Feeling: Humble, eager — ให้ความรู้สึกถ่อมตน ตั้งใจเรียนรู้
+   Example: He worked as an apprentice to the blacksmith.
+
+53. Front: Steep
+   Back:
+   Meaning: Rising or falling sharply; (price) too high; to soak in liquid | ชัน; แพงเกินไป; แช่
+   Word (POS): Steep (adj./v.)
+   Frequency: Common — hills, prices, tea
+   Feeling: Difficult, demanding — ให้ความรู้สึกยาก หนัก ต้องใช้แรง
+   Example: The path up the mountain was steep.
+
+54. Front: Drifting between
+   Back:
+   Meaning: Moving slowly and without purpose from one state to another | ล่องลอยไปมาระหว่าง
+   Word (POS): Drifting between (phrase)
+   Frequency: Less common — sleep, dreams, worlds, moods
+   Feeling: Dreamy, lost — ให้ความรู้สึกเลื่อนลอย ไม่ยึดติดที่ใด
+   Example: She was drifting between sleep and waking.
+
+55. Front: Cuddling
+   Back:
+   Meaning: Holding someone closely and lovingly | กอด, กอดรัดอย่างอ่อนโยน
+   Word (POS): Cuddling (v.)
+   Frequency: Common — family, couples, pets
+   Feeling: Warm, tender — ให้ความรู้สึกอบอุ่น อ่อนโยน
+   Example: The kids were cuddling the puppy.
+
+56. Front: Precedent
+   Back:
+   Meaning: An earlier event used as an example or rule for later ones | แบบอย่าง, บรรทัดฐาน
+   Word (POS): Precedent (n.)
+   Frequency: Less common — law, politics, decisions (set a precedent)
+   Feeling: Formal, serious — ให้ความรู้สึกเป็นทางการ มีผลระยะยาว
+   Example: This decision could set a dangerous precedent.
+
+57. Front: Hand over
+   Back:
+   Meaning: To give something or someone to another person | ส่งมอบ
+   Word (POS): Hand over (phr. v.)
+   Frequency: Very common — giving items, responsibility, control
+   Feeling: Neutral; sometimes forced — ปกติเป็นกลาง บางครั้งแฝงการถูกบังคับให้ยอม
+   Example: Hand over the key, please.
+
+58. Front: Splurging
+   Back:
+   Meaning: Spending a lot of money on something you enjoy | ใช้จ่ายฟุ่มเฟือย, ทุ่มเงิน
+   Word (POS): Splurging (v.)
+   Frequency: Common — shopping, treats, holidays
+   Feeling: Fun, guilty pleasure — ให้ความรู้สึกสนุก แต่แอบรู้สึกผิด
+   Example: I'm splurging on a nice dinner tonight.
+
+59. Front: Creased
+   Back:
+   Meaning: Having folds or lines in it | ยับ, มีรอยพับ
+   Word (POS): Creased (adj.)
+   Frequency: Common — clothes, paper, faces
+   Feeling: Worn, untidy — ให้ความรู้สึกไม่เรียบร้อย ผ่านการใช้มา
+   Example: He handed me a creased old photo.
+
+60. Front: Worn
+   Back:
+   Meaning: Damaged by long use; looking tired | สึกหรอ, เก่า; อ่อนล้า
+   Word (POS): Worn (adj.)
+   Frequency: Very common — clothes, objects, people
+   Feeling: Old, weary — ให้ความรู้สึกเก่า ผ่านกาลเวลา เหนื่อยล้า
+   Example: She wore a worn leather jacket.
+
+61. Front: Crammed
+   Back:
+   Meaning: Filled too full; pushed into a small space | อัดแน่น, ยัดเยียด
+   Word (POS): Crammed (adj./v.)
+   Frequency: Common — rooms, bags, studying (cram for exams)
+   Feeling: Crowded, stressful — ให้ความรู้สึกแออัด อึดอัด
+   Example: The train was crammed with commuters.
+
+62. Front: Misery
+   Back:
+   Meaning: Great unhappiness or suffering | ความทุกข์ยาก, ความทรมาน
+   Word (POS): Misery (n.)
+   Frequency: Common — hardship, pain, bad situations
+   Feeling: Heavy, sad — ให้ความรู้สึกหดหู่ ทุกข์ทรมาน
+   Example: The war brought misery to millions.
+
+63. Front: Roving
+   Back:
+   Meaning: Travelling or moving around from place to place | ร่อนเร่, ตระเวน
+   Word (POS): Roving (adj.)
+   Frequency: Less common — reporters, patrols, eyes (a roving eye)
+   Feeling: Restless, free — ให้ความรู้สึกไม่อยู่นิ่ง เคลื่อนที่ตลอด
+   Example: A roving patrol checked the area every hour.
+
+64. Front: Absurdly
+   Back:
+   Meaning: In a way that is ridiculous; extremely | อย่างไร้สาระ, อย่างน่าขัน
+   Word (POS): Absurdly (adv.)
+   Frequency: Common — exaggeration, humour (absurdly expensive)
+   Feeling: Amused, disbelieving — ให้ความรู้สึกขำปนไม่อยากเชื่อ
+   Example: The tickets were absurdly expensive.
+
+65. Front: My head's been loud
+   Back:
+   Meaning: My mind has been full of noisy, racing thoughts | ในหัวมันวุ่นวาย คิดไม่หยุด
+   Word (POS): My head's been loud (phrase)
+   Frequency: Less common — stress, anxiety, emotional talk
+   Feeling: Anxious, overwhelmed — ให้ความรู้สึกฟุ้งซ่าน กังวล ล้นหัว
+   Example: Sorry I've been quiet; my head's been loud lately.
+
+66. Front: Piled
+   Back:
+   Meaning: Put things on top of each other in a heap | กองสุมกัน
+   Word (POS): Piled (adj./v.)
+   Frequency: Common — dishes, work, clothes (piled up)
+   Feeling: Messy, overwhelming — ให้ความรู้สึกรก ล้นมือ
+   Example: Dirty dishes were piled in the sink.
+
+67. Front: Carefree
+   Back:
+   Meaning: Having no worries or responsibilities | ไร้กังวล
+   Word (POS): Carefree (adj.)
+   Frequency: Common — childhood, holidays, happy times
+   Feeling: Light, happy — ให้ความรู้สึกสบายใจ อิสระ
+   Example: We spent a carefree summer by the sea.
+
+68. Front: Trekked
+   Back:
+   Meaning: Walked a long and difficult way | เดินทางไกลอย่างยากลำบาก
+   Word (POS): Trekked (v.)
+   Frequency: Common — hiking, long journeys
+   Feeling: Tiring, adventurous — ให้ความรู้สึกเหนื่อย แต่เป็นการผจญภัย
+   Example: We trekked through the forest for three days.
+
+69. Front: Festered
+   Back:
+   Meaning: (wound) became infected; (bad feeling) grew worse over time | (แผล) เน่าเปื่อย; (ความรู้สึก) คุกรุ่นสะสม
+   Word (POS): Festered (v.)
+   Frequency: Less common — wounds; anger or resentment
+   Feeling: Dark, toxic — ให้ความรู้สึกหมักหมม เป็นพิษ
+   Example: His anger festered for years.
+
+70. Front: Coherent
+   Back:
+   Meaning: Logical and clear; able to speak clearly | สอดคล้อง, เป็นเหตุเป็นผล; พูดรู้เรื่อง
+   Word (POS): Coherent (adj.)
+   Frequency: Common — arguments, plans, speech
+   Feeling: Clear, organised — ให้ความรู้สึกชัดเจน เป็นระบบ
+   Example: She gave a clear and coherent explanation.
+
+71. Front: Ragged
+   Back:
+   Meaning: Torn and old; (breathing) uneven | ขาดรุ่งริ่ง; หอบ, ไม่สม่ำเสมอ
+   Word (POS): Ragged (adj.)
+   Frequency: Common — clothes; breathing after effort
+   Feeling: Worn out, rough — ให้ความรู้สึกทรุดโทรม เหนื่อยหอบ
+   Example: He took a ragged breath after the race.
+
+72. Front: Swooning
+   Back:
+   Meaning: Being overwhelmed with love or excitement; fainting | เคลิบเคลิ้ม, ใจละลาย; เป็นลม
+   Word (POS): Swooning (v.)
+   Frequency: Less common — romance, fans, old stories
+   Feeling: Dreamy, dazzled — ให้ความรู้สึกหลงใหล ใจละลาย
+   Example: Fans were swooning over the singer.
+
+73. Front: Desperate
+   Back:
+   Meaning: Feeling there is little hope and ready to do anything | สิ้นหวัง; ต้องการอย่างมาก
+   Word (POS): Desperate (adj.)
+   Frequency: Very common — crises, strong needs
+   Feeling: Urgent, hopeless — ให้ความรู้สึกร้อนรน หมดหนทาง
+   Example: He was desperate to find his sister.
+
+74. Front: Occupied
+   Back:
+   Meaning: Busy or in use; (place) controlled by an enemy | ไม่ว่าง, ถูกใช้อยู่; ถูกยึดครอง
+   Word (POS): Occupied (adj.)
+   Frequency: Common — toilets, seats, busy people; war
+   Feeling: Neutral; tense in war sense — ปกติเป็นกลาง แต่ในบริบทสงครามให้ความรู้สึกตึงเครียด
+   Example: Sorry, this seat is occupied.
+
