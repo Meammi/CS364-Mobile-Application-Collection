@@ -1,4 +1,4 @@
-# Flashcards docs — index
+# Lilearn docs — index
 
 Written 14 Nov 2026 from the design session between the student and Claude (claude.ai Project "CS364 Mobile"). Read this file first, then only what the task needs.
 

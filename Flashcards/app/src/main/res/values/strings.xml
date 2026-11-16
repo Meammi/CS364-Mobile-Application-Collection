@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Flashcards</string>
+    <string name="app_name">Lilearn</string>
     <string name="navigate_up">Back</string>
 
     <!-- Deck list -->
@@ -85,7 +85,7 @@
     <string name="settings_reminder">Reminder</string>
     <string name="setting_reminder">Daily study reminder</string>
     <string name="setting_reminder_time">Reminder time</string>
-    <string name="reminder_permission_denied">Allow notifications for Flashcards in system settings to get reminders.</string>
+    <string name="reminder_permission_denied">Allow notifications for Lilearn in system settings to get reminders.</string>
     <string name="reminder_channel">Study reminders</string>
     <string name="reminder_text">Cards due today: %1$d</string>
     <string name="settings_data">Data</string>

@@ -34,7 +34,7 @@ Labels: [decision] = the student chose or approved it; [assumption] = Claude's r
 | Cut | search, import (added back 14 Nov 2026: deck rename in the Deck screen menu; statistics screen from the deck list) | |
 | Statistics | all Decks with a Deck filter; also per Deck from the Deck screen menu (same screen, filter hidden); Practice sessions logged and tagged, counted in time/streak, not in Again %; bars from plain Views (no chart library); Learning < 21 days <= Mature | student chose every recommendation |
 | Kept | edit Card, end-of-session summary, "Save & add another" | |
-| Project | name Flashcards, package com.example.flashcards, Empty Views Activity, Java, minSdk 29, targetSdk 37, Kotlin DSL | |
+| Project | app name Lilearn (Lily + Learn; project folder and package still Flashcards), package com.example.flashcards, Empty Views Activity, Java, minSdk 29, targetSdk 37, Kotlin DSL | |
 
 ## Worked SM-2 example (also a test case)
 Card "Carefree", created 14 Nov, ease 2.5.

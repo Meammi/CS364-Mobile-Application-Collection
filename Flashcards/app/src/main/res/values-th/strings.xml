@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Flashcards</string>
+    <string name="app_name">Lilearn</string>
     <string name="navigate_up">ย้อนกลับ</string>
 
     <!-- Deck list -->
@@ -85,7 +85,7 @@
     <string name="settings_reminder">การแจ้งเตือน</string>
     <string name="setting_reminder">เตือนให้ทบทวนทุกวัน</string>
     <string name="setting_reminder_time">เวลาแจ้งเตือน</string>
-    <string name="reminder_permission_denied">อนุญาตการแจ้งเตือนของ Flashcards ในการตั้งค่าระบบเพื่อรับการเตือน</string>
+    <string name="reminder_permission_denied">อนุญาตการแจ้งเตือนของ Lilearn ในการตั้งค่าระบบเพื่อรับการเตือน</string>
     <string name="reminder_channel">เตือนให้ทบทวน</string>
     <string name="reminder_text">การ์ดที่ครบกำหนดวันนี้: %1$d ใบ</string>
     <string name="settings_data">ข้อมูล</string>
