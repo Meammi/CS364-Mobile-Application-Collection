@@ -15,35 +15,49 @@
         app:navigationContentDescription="@string/navigate_up"
         app:navigationIcon="?attr/homeAsUpIndicator" />
 
+    <!-- rest of the header band: due and card counts -->
     <TextView
         android:id="@+id/summaryText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:textAppearance="?attr/textAppearanceBodyMedium" />
+        android:background="?attr/colorHeader"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="?attr/colorOnHeaderVariant" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/studyButton"
+            style="@style/Widget.Lilearn.Button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="10dp"
             android:layout_weight="1"
-            android:text="@string/study" />
+            android:text="@string/study"
+            app:icon="@drawable/ic_play"
+            app:iconGravity="textStart" />
 
         <Button
             android:id="@+id/addCardButton"
-            style="@style/Widget.Material3.Button.TonalButton"
+            style="@style/Widget.Lilearn.Button.Outlined"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/add_card" />
+            android:text="@string/add_card"
+            app:icon="@drawable/ic_add"
+            app:iconGravity="textStart" />
     </LinearLayout>
 
     <FrameLayout
@@ -54,7 +68,10 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/cardList"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="4dp"
+            android:paddingBottom="16dp" />
 
         <TextView
             android:id="@+id/emptyText"

@@ -12,6 +12,8 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        app:logo="@drawable/ic_lily_mark"
+        app:titleMarginStart="20dp"
         app:title="@string/decks_title" />
 
     <FrameLayout
@@ -22,7 +24,10 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/deckList"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="12dp"
+            android:paddingBottom="8dp" />
 
         <TextView
             android:id="@+id/emptyText"
@@ -42,8 +47,11 @@
 
     <Button
         android:id="@+id/newDeckButton"
+        style="@style/Widget.Lilearn.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="@string/new_deck" />
+        android:text="@string/new_deck"
+        app:icon="@drawable/ic_add"
+        app:iconGravity="textStart" />
 </LinearLayout>

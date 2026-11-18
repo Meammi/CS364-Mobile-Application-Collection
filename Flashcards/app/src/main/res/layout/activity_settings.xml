@@ -25,73 +25,111 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingBottom="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="24dp">
 
             <TextView
-                style="@style/SettingsHeader"
+                style="@style/SettingsHeader.Group"
                 android:text="@string/settings_appearance" />
 
-            <include
-                android:id="@+id/rowTheme"
-                layout="@layout/item_setting" />
+            <com.google.android.material.card.MaterialCardView style="@style/SettingsGroup">
 
-            <include
-                android:id="@+id/rowLanguage"
-                layout="@layout/item_setting" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/rowTheme"
+                        layout="@layout/item_setting" />
+
+                    <com.google.android.material.divider.MaterialDivider style="@style/SettingsDivider" />
+
+                    <include
+                        android:id="@+id/rowLanguage"
+                        layout="@layout/item_setting" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <TextView
-                style="@style/SettingsHeader"
+                style="@style/SettingsHeader.Group"
                 android:text="@string/settings_review" />
 
-            <include
-                android:id="@+id/rowMode"
-                layout="@layout/item_setting" />
+            <com.google.android.material.card.MaterialCardView style="@style/SettingsGroup">
 
-            <include
-                android:id="@+id/rowNewLimit"
-                layout="@layout/item_setting" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/rowMode"
+                        layout="@layout/item_setting" />
+
+                    <com.google.android.material.divider.MaterialDivider style="@style/SettingsDivider" />
+
+                    <include
+                        android:id="@+id/rowNewLimit"
+                        layout="@layout/item_setting" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <TextView
-                style="@style/SettingsHeader"
+                style="@style/SettingsHeader.Group"
                 android:text="@string/settings_reminder" />
 
-            <LinearLayout
-                android:id="@+id/rowReminder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="?attr/selectableItemBackground"
-                android:gravity="center_vertical"
-                android:minHeight="64dp"
-                android:orientation="horizontal"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp">
+            <com.google.android.material.card.MaterialCardView style="@style/SettingsGroup">
 
-                <TextView
-                    android:layout_width="0dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/setting_reminder"
-                    android:textAppearance="?attr/textAppearanceBodyLarge" />
+                    android:orientation="vertical">
 
-                <com.google.android.material.materialswitch.MaterialSwitch
-                    android:id="@+id/reminderSwitch"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:clickable="false"
-                    android:focusable="false" />
-            </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/rowReminder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:gravity="center_vertical"
+                        android:minHeight="64dp"
+                        android:orientation="horizontal"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp">
 
-            <include
-                android:id="@+id/rowReminderTime"
-                layout="@layout/item_setting" />
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/setting_reminder"
+                            android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+                        <com.google.android.material.materialswitch.MaterialSwitch
+                            android:id="@+id/reminderSwitch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:focusable="false" />
+                    </LinearLayout>
+
+                    <com.google.android.material.divider.MaterialDivider style="@style/SettingsDivider" />
+
+                    <include
+                        android:id="@+id/rowReminderTime"
+                        layout="@layout/item_setting" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <TextView
-                style="@style/SettingsHeader"
+                style="@style/SettingsHeader.Group"
                 android:text="@string/settings_data" />
 
-            <include
-                android:id="@+id/rowReset"
-                layout="@layout/item_setting" />
+            <com.google.android.material.card.MaterialCardView style="@style/SettingsGroup">
+
+                <include
+                    android:id="@+id/rowReset"
+                    layout="@layout/item_setting" />
+            </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -2,6 +2,7 @@ package com.example.flashcards;
 
 import android.content.SharedPreferences;
 import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.SystemClock;
@@ -79,6 +80,8 @@ public class ReviewActivity extends AppCompatActivity {
     private TextView noticeText;
     private TextView frontText;
     private TextView backText;
+    private View answerDivider;
+    private View flashCard;
     private TextView resultText;
     private Chronometer timer;
     private Button modeButton;
@@ -112,6 +115,8 @@ public class ReviewActivity extends AppCompatActivity {
         noticeText = findViewById(R.id.noticeText);
         frontText = findViewById(R.id.frontText);
         backText = findViewById(R.id.backText);
+        answerDivider = findViewById(R.id.answerDivider);
+        flashCard = findViewById(R.id.flashCard);
         resultText = findViewById(R.id.resultText);
         timer = findViewById(R.id.timer);
         modeButton = findViewById(R.id.modeButton);
@@ -294,6 +299,7 @@ public class ReviewActivity extends AppCompatActivity {
         }
         backText.setText(back);
         backText.setVisibility(answered ? View.VISIBLE : View.GONE);
+        answerDivider.setVisibility(backText.getVisibility());
 
         optionsLayout.setVisibility(choiceStyle ? View.VISIBLE : View.GONE);
         for (int i = 0; i < optionButtons.length; i++) {
@@ -315,7 +321,7 @@ public class ReviewActivity extends AppCompatActivity {
             boolean ok = options[chosen].equals(gist);
             resultText.setText(ok ? R.string.correct : R.string.wrong);
             resultText.setTextColor(MaterialColors.getColor(resultText,
-                    ok ? androidx.appcompat.R.attr.colorPrimary : androidx.appcompat.R.attr.colorError));
+                    ok ? R.attr.colorSuccess : androidx.appcompat.R.attr.colorError));
             resultText.setVisibility(View.VISIBLE);
         } else {
             resultText.setVisibility(View.GONE);
@@ -326,20 +332,34 @@ public class ReviewActivity extends AppCompatActivity {
         nextButton.setVisibility(choiceStyle && chosen >= 0 ? View.VISIBLE : View.GONE);
     }
 
-    /** Theme colours only: right = primary + check, wrong = error + cross. */
+    /** Theme colours only: right = green fill + check, wrong = red fill + cross, others muted. */
     private void styleOption(MaterialButton b, int look) {
-        int attr = look == OPT_RIGHT ? androidx.appcompat.R.attr.colorPrimary
-                : look == OPT_WRONG ? androidx.appcompat.R.attr.colorError
-                : com.google.android.material.R.attr.colorOutline;
-        ColorStateList color = ColorStateList.valueOf(MaterialColors.getColor(b, attr));
+        int stroke, fill, text;
+        if (look == OPT_RIGHT) {
+            stroke = R.attr.colorSuccess;
+            fill = R.attr.colorSuccessContainer;
+            text = R.attr.colorOnSuccessContainer;
+        } else if (look == OPT_WRONG) {
+            stroke = androidx.appcompat.R.attr.colorError;
+            fill = com.google.android.material.R.attr.colorErrorContainer;
+            text = com.google.android.material.R.attr.colorOnErrorContainer;
+        } else {
+            stroke = com.google.android.material.R.attr.colorOutlineVariant;
+            fill = 0;   // transparent
+            text = look == OPT_DIM ? com.google.android.material.R.attr.colorOnSurfaceVariant
+                    : com.google.android.material.R.attr.colorOnSurface;
+        }
         float dp = getResources().getDisplayMetrics().density;
-        b.setStrokeColor(color);
+        b.setStrokeColor(ColorStateList.valueOf(MaterialColors.getColor(b, stroke)));
         b.setStrokeWidth((int) ((look == OPT_RIGHT || look == OPT_WRONG ? 2 : 1) * dp));
-        b.setIconTint(color);
+        b.setBackgroundTintList(ColorStateList.valueOf(
+                fill == 0 ? Color.TRANSPARENT : MaterialColors.getColor(b, fill)));
+        ColorStateList textColor = ColorStateList.valueOf(MaterialColors.getColor(b, text));
+        b.setTextColor(textColor);
+        b.setIconTint(textColor);
         if (look == OPT_RIGHT) b.setIconResource(R.drawable.ic_check);
         else if (look == OPT_WRONG) b.setIconResource(R.drawable.ic_close);
         else b.setIcon(null);
-        b.setAlpha(look == OPT_DIM ? 0.6f : 1f);
     }
 
     private void toggleMode() {
@@ -392,7 +412,7 @@ public class ReviewActivity extends AppCompatActivity {
     private void showSummary() {
         stopTimer();
         saveLog();
-        for (View v : new View[]{frontText, backText, resultText, noticeText, optionsLayout,
+        for (View v : new View[]{flashCard, optionsLayout,
                 gradeLayout, showAnswerButton, nextButton}) {
             v.setVisibility(View.GONE);
         }

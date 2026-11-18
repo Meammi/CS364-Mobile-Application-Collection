@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lily Gothic palette, dark (same names as values/colors.xml) -->
+    <color name="lily_primary">#CDB6EC</color>
+    <color name="lily_on_primary">#2A1B3D</color>
+    <color name="lily_primary_container">#3A2D4C</color>
+    <color name="lily_on_primary_container">#E6DAF5</color>
+    <color name="lily_secondary">#D3C2E6</color>
+    <color name="lily_on_secondary">#36294A</color>
+    <color name="lily_secondary_container">#3A2D4C</color>
+    <color name="lily_on_secondary_container">#E6DAF5</color>
+    <color name="lily_tertiary">#EBA9C9</color>
+    <color name="lily_on_tertiary">#4E1736</color>
+    <color name="lily_tertiary_container">#6A3253</color>
+    <color name="lily_on_tertiary_container">#FFD8E9</color>
+    <color name="lily_error">#F2B8B5</color>
+    <color name="lily_on_error">#601410</color>
+    <color name="lily_error_container">#5C1F1C</color>
+    <color name="lily_on_error_container">#FFDAD6</color>
+    <color name="lily_background">#121014</color>
+    <color name="lily_on_background">#ECE6F0</color>
+    <color name="lily_surface">#121014</color>
+    <color name="lily_on_surface">#ECE6F0</color>
+    <color name="lily_surface_variant">#3A3242</color>
+    <color name="lily_on_surface_variant">#B9AFC4</color>
+    <color name="lily_outline">#857B91</color>
+    <color name="lily_outline_variant">#3A3242</color>
+    <color name="lily_inverse_surface">#ECE6F0</color>
+    <color name="lily_inverse_on_surface">#2A2430</color>
+    <color name="lily_inverse_primary">#6B4F8E</color>
+    <color name="lily_surface_lowest">#0D0B0F</color>
+    <color name="lily_surface_low">#1B1720</color>
+    <color name="lily_surface_container">#1F1A24</color>
+    <color name="lily_surface_high">#29232F</color>
+    <color name="lily_surface_highest">#342D3A</color>
+    <color name="lily_surface_dim">#121014</color>
+    <color name="lily_surface_bright">#3A3341</color>
+    <color name="lily_success">#9FD8B2</color>
+    <color name="lily_on_success">#0E3A22</color>
+    <color name="lily_success_container">#1F3A2A</color>
+    <color name="lily_on_success_container">#BDE8CB</color>
+    <color name="lily_header">#1C1621</color>
+    <color name="lily_on_header">#F4EEF8</color>
+    <color name="lily_on_header_variant">#CDB6EC</color>
+    <color name="lily_header_accent">#EBA9C9</color>
+    <color name="lily_header_track">#3A3242</color>
+</resources>

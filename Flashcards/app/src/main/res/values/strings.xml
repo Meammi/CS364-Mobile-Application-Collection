@@ -9,6 +9,12 @@
     <string name="create">Create</string>
     <string name="no_decks">No decks yet. Tap “New deck” to start.</string>
     <string name="deck_counts">%1$d due · %2$d cards</string>
+    <plurals name="deck_cards">
+        <item quantity="one">%1$d card</item>
+        <item quantity="other">%1$d cards</item>
+    </plurals>
+    <string name="deck_due">%1$d due</string>
+    <string name="deck_done">Done</string>
     <string name="more_options">More options</string>
     <string name="delete">Delete</string>
     <string name="delete_deck_title">Delete deck?</string>
@@ -36,6 +42,7 @@
     <string name="card_back_hint">Back (meaning, examples…)</string>
     <string name="save">Save</string>
     <string name="save_add_another">Save &amp; add another</string>
+    <string name="card_preview">Preview</string>
     <string name="required">Required</string>
     <string name="card_front_exists">A card with this front already exists in this deck</string>
     <string name="saved">Saved</string>
@@ -103,9 +110,10 @@
     <string name="stats_all_decks">All decks</string>
     <string name="stats_today">Today</string>
     <string name="stats_all_time">All time</string>
-    <string name="stats_cards_time">Cards: %1$d · Time: %2$s</string>
+    <string name="stats_cards_sub">cards · %1$s</string>
     <string name="stats_streak">Days in a row</string>
-    <string name="stats_again_rate">Answered Again (reviews only)</string>
+    <string name="stats_again_short">Answered Again</string>
+    <string name="stats_reviews_only">reviews only</string>
     <string name="stats_percent">%1$d%%</string>
     <string name="stats_no_value">—</string>
     <string name="stats_last_7_days">Last 7 days</string>
@@ -118,6 +126,6 @@
     <string name="stats_states_hint">Learning = next review in under 21 days. Mature = 21 days or more.</string>
     <string name="stats_history">Study log</string>
     <string name="stats_no_sessions">No study sessions yet.</string>
-    <string name="session_practice_title">%1$s · Practice</string>
+    <string name="session_practice_tag">Practice</string>
     <string name="session_detail">%1$s · Cards: %2$d · Again: %3$d · %4$s</string>
 </resources>

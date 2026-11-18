@@ -123,12 +123,18 @@ public class MainActivity extends AppCompatActivity {
         class VH extends RecyclerView.ViewHolder {
             final TextView name;
             final TextView counts;
+            final View due;
+            final TextView dueText;
+            final TextView done;
             final Button more;
 
             VH(View v) {
                 super(v);
                 name = v.findViewById(R.id.deckName);
                 counts = v.findViewById(R.id.deckCounts);
+                due = v.findViewById(R.id.duePill);
+                dueText = v.findViewById(R.id.dueText);
+                done = v.findViewById(R.id.donePill);
                 more = v.findViewById(R.id.moreButton);
             }
         }
@@ -142,7 +148,11 @@ public class MainActivity extends AppCompatActivity {
         public void onBindViewHolder(VH h, int position) {
             Deck d = items.get(position);
             h.name.setText(d.name);
-            h.counts.setText(getString(R.string.deck_counts, d.dueCount, d.cardCount));
+            h.counts.setText(getResources().getQuantityString(R.plurals.deck_cards, d.cardCount, d.cardCount));
+            h.dueText.setText(getString(R.string.deck_due, d.dueCount));
+            h.due.setVisibility(d.dueCount > 0 ? View.VISIBLE : View.GONE);
+            // "Done" only for a Deck that has Cards and none Due
+            h.done.setVisibility(d.cardCount > 0 && d.dueCount == 0 ? View.VISIBLE : View.GONE);
             h.itemView.setOnClickListener(v -> {
                 Intent i = new Intent(MainActivity.this, DeckActivity.class);
                 i.putExtra(DeckActivity.EXTRA_DECK_ID, d.id);

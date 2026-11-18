@@ -16,13 +16,17 @@
         app:navigationIcon="?attr/homeAsUpIndicator"
         app:title="@string/statistics" />
 
+    <!-- deck filter, inside the header band -->
     <Spinner
         android:id="@+id/deckFilter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:minHeight="48dp" />
+        android:background="?attr/colorHeader"
+        android:minHeight="48dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:theme="@style/ThemeOverlay.Lilearn.Header" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -33,105 +37,241 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingBottom="16dp">
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="24dp">
 
-            <!-- totals -->
-            <include
-                android:id="@+id/rowToday"
-                layout="@layout/item_setting" />
+            <!-- totals: 2 x 2 tiles -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <include
-                android:id="@+id/rowAllTime"
-                layout="@layout/item_setting" />
+                <include
+                    android:id="@+id/tileToday"
+                    layout="@layout/item_stat_tile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1" />
 
-            <include
-                android:id="@+id/rowStreak"
-                layout="@layout/item_setting" />
+                <include
+                    android:id="@+id/tileAllTime"
+                    layout="@layout/item_stat_tile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
 
-            <include
-                android:id="@+id/rowAgain"
-                layout="@layout/item_setting" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/tileStreak"
+                    layout="@layout/item_stat_tile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="5dp"
+                    android:layout_weight="1" />
+
+                <include
+                    android:id="@+id/tileAgain"
+                    layout="@layout/item_stat_tile"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
 
             <TextView
-                style="@style/SettingsHeader"
+                style="@style/StatsHeader"
                 android:text="@string/stats_last_7_days" />
 
-            <TextView
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.Lilearn.ListCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="14dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stats_cards_reviewed"
+                        android:textAppearance="?attr/textAppearanceTitleSmall"
+                        android:textColor="?attr/colorOnSurfaceVariant" />
+
+                    <LinearLayout
+                        android:id="@+id/chartCards"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.Lilearn.ListCard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="@string/stats_cards_reviewed"
-                android:textAppearance="?attr/textAppearanceBodyMedium" />
+                android:layout_marginTop="10dp">
 
-            <LinearLayout
-                android:id="@+id/chartCards"
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:orientation="horizontal" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="14dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="@string/stats_minutes"
-                android:textAppearance="?attr/textAppearanceBodyMedium" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stats_minutes"
+                        android:textAppearance="?attr/textAppearanceTitleSmall"
+                        android:textColor="?attr/colorOnSurfaceVariant" />
 
-            <LinearLayout
-                android:id="@+id/chartMinutes"
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:orientation="horizontal" />
+                    <LinearLayout
+                        android:id="@+id/chartMinutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <TextView
-                style="@style/SettingsHeader"
+                style="@style/StatsHeader"
                 android:text="@string/stats_card_states" />
 
-            <include
-                android:id="@+id/rowNew"
-                layout="@layout/item_setting" />
-
-            <include
-                android:id="@+id/rowLearning"
-                layout="@layout/item_setting" />
-
-            <include
-                android:id="@+id/rowMature"
-                layout="@layout/item_setting" />
-
-            <TextView
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.Lilearn.ListCard"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingStart="16dp"
-                android:paddingEnd="16dp"
-                android:text="@string/stats_states_hint"
-                android:textAppearance="?attr/textAppearanceBodySmall"
-                android:textColor="?attr/colorOnSurfaceVariant" />
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- one bar split New / Learning / Mature (weights set in code) -->
+                    <LinearLayout
+                        android:id="@+id/stateBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="14dp"
+                        android:background="@drawable/bg_state_bar"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:id="@+id/stateNewSeg"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="?attr/colorOutline" />
+
+                        <View
+                            android:id="@+id/stateLearningSeg"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="?attr/colorSecondary" />
+
+                        <View
+                            android:id="@+id/stateMatureSeg"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:background="?attr/colorTertiary" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout style="@style/StatsLegend">
+
+                            <TextView
+                                style="@style/StatsLegendLabel"
+                                android:text="@string/state_new"
+                                app:drawableStartCompat="@drawable/swatch_new" />
+
+                            <TextView
+                                android:id="@+id/stateNewCount"
+                                style="@style/StatsLegendValue" />
+                        </LinearLayout>
+
+                        <LinearLayout style="@style/StatsLegend">
+
+                            <TextView
+                                style="@style/StatsLegendLabel"
+                                android:text="@string/state_learning"
+                                app:drawableStartCompat="@drawable/swatch_learning" />
+
+                            <TextView
+                                android:id="@+id/stateLearningCount"
+                                style="@style/StatsLegendValue" />
+                        </LinearLayout>
+
+                        <LinearLayout style="@style/StatsLegend">
+
+                            <TextView
+                                style="@style/StatsLegendLabel"
+                                android:text="@string/state_mature"
+                                app:drawableStartCompat="@drawable/swatch_mature" />
+
+                            <TextView
+                                android:id="@+id/stateMatureCount"
+                                style="@style/StatsLegendValue" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/stats_states_hint"
+                        android:textAppearance="?attr/textAppearanceBodySmall"
+                        android:textColor="?attr/colorOnSurfaceVariant" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <TextView
-                style="@style/SettingsHeader"
+                style="@style/StatsHeader"
                 android:text="@string/stats_history" />
 
-            <TextView
-                android:id="@+id/historyEmpty"
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.Lilearn.ListCard"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:text="@string/stats_no_sessions"
-                android:textColor="?attr/colorOnSurfaceVariant"
-                android:visibility="gone" />
+                android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:id="@+id/historyList"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/historyEmpty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="@string/stats_no_sessions"
+                        android:textColor="?attr/colorOnSurfaceVariant"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/historyList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

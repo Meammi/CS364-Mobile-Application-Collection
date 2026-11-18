@@ -9,6 +9,11 @@
     <string name="create">สร้าง</string>
     <string name="no_decks">ยังไม่มีชุดคำศัพท์ แตะ “สร้างชุดใหม่” เพื่อเริ่มต้น</string>
     <string name="deck_counts">ครบกำหนด %1$d · ทั้งหมด %2$d ใบ</string>
+    <plurals name="deck_cards">
+        <item quantity="other">%1$d ใบ</item>
+    </plurals>
+    <string name="deck_due">ครบกำหนด %1$d</string>
+    <string name="deck_done">ครบแล้ว</string>
     <string name="more_options">ตัวเลือกเพิ่มเติม</string>
     <string name="delete">ลบ</string>
     <string name="delete_deck_title">ลบชุดนี้หรือไม่?</string>
@@ -36,6 +41,7 @@
     <string name="card_back_hint">ด้านหลัง (ความหมาย ตัวอย่าง…)</string>
     <string name="save">บันทึก</string>
     <string name="save_add_another">บันทึกและเพิ่มใบถัดไป</string>
+    <string name="card_preview">ตัวอย่าง</string>
     <string name="required">จำเป็นต้องกรอก</string>
     <string name="card_front_exists">มีการ์ดด้านหน้านี้อยู่แล้วในชุดนี้</string>
     <string name="saved">บันทึกแล้ว</string>
@@ -103,9 +109,10 @@
     <string name="stats_all_decks">ทุกชุด</string>
     <string name="stats_today">วันนี้</string>
     <string name="stats_all_time">ทั้งหมด</string>
-    <string name="stats_cards_time">การ์ด %1$d ใบ · เวลา %2$s</string>
+    <string name="stats_cards_sub">ใบ · %1$s</string>
     <string name="stats_streak">เรียนต่อเนื่อง (วัน)</string>
-    <string name="stats_again_rate">ตอบ “อีกครั้ง” (เฉพาะการทบทวน)</string>
+    <string name="stats_again_short">ตอบ “อีกครั้ง”</string>
+    <string name="stats_reviews_only">เฉพาะการทบทวน</string>
     <string name="stats_percent">%1$d%%</string>
     <string name="stats_no_value">—</string>
     <string name="stats_last_7_days">7 วันล่าสุด</string>
@@ -118,6 +125,6 @@
     <string name="stats_states_hint">กำลังเรียน = ทบทวนครั้งถัดไปภายใน 21 วัน จำได้ดี = 21 วันขึ้นไป</string>
     <string name="stats_history">บันทึกการทบทวน</string>
     <string name="stats_no_sessions">ยังไม่มีการทบทวน</string>
-    <string name="session_practice_title">%1$s · ฝึก</string>
+    <string name="session_practice_tag">ฝึก</string>
     <string name="session_detail">%1$s · %2$d ใบ · อีกครั้ง %3$d · %4$s</string>
 </resources>

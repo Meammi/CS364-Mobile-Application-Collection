@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- small lily mark for the deck-list header (petals of ic_launcher_foreground) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <group android:translateX="-24" android:translateY="-24">
+        <group android:pivotX="54" android:pivotY="54" android:rotation="60">
+            <path android:fillColor="@color/lily_on_header" android:strokeColor="@color/lily_on_header_variant" android:strokeWidth="2"
+                android:pathData="M54,54 C45,45 46,33 54,26 C62,33 63,45 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="180">
+            <path android:fillColor="@color/lily_on_header" android:strokeColor="@color/lily_on_header_variant" android:strokeWidth="2"
+                android:pathData="M54,54 C45,45 46,33 54,26 C62,33 63,45 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="300">
+            <path android:fillColor="@color/lily_on_header" android:strokeColor="@color/lily_on_header_variant" android:strokeWidth="2"
+                android:pathData="M54,54 C45,45 46,33 54,26 C62,33 63,45 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="0">
+            <path android:fillColor="@color/lily_on_header" android:strokeColor="@color/lily_on_header_variant" android:strokeWidth="2"
+                android:pathData="M54,54 C45,45 46,33 54,26 C62,33 63,45 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="120">
+            <path android:fillColor="@color/lily_on_header" android:strokeColor="@color/lily_on_header_variant" android:strokeWidth="2"
+                android:pathData="M54,54 C45,45 46,33 54,26 C62,33 63,45 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="240">
+            <path android:fillColor="@color/lily_on_header" android:strokeColor="@color/lily_on_header_variant" android:strokeWidth="2"
+                android:pathData="M54,54 C45,45 46,33 54,26 C62,33 63,45 54,54 Z" />
+        </group>
+        <path android:fillColor="@color/lily_header_accent"
+            android:pathData="M50.5,54 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0 Z" />
+    </group>
+</vector>

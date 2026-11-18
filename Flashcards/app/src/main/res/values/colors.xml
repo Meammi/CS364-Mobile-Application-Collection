@@ -2,4 +2,51 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Lily Gothic palette, light. Night values: values-night/colors.xml (same names).
+         Layouts and Java use the theme attributes, never these directly. -->
+    <color name="lily_primary">#2E2438</color>
+    <color name="lily_on_primary">#F4EEF8</color>
+    <color name="lily_primary_container">#E6DAF5</color>
+    <color name="lily_on_primary_container">#2A1B3D</color>
+    <color name="lily_secondary">#6B4F8E</color>
+    <color name="lily_on_secondary">#FFFFFF</color>
+    <color name="lily_secondary_container">#E6DAF5</color>
+    <color name="lily_on_secondary_container">#33224A</color>
+    <color name="lily_tertiary">#A8437A</color>
+    <color name="lily_on_tertiary">#FFFFFF</color>
+    <color name="lily_tertiary_container">#F6DCE9</color>
+    <color name="lily_on_tertiary_container">#5A1F40</color>
+    <color name="lily_error">#B3261E</color>
+    <color name="lily_on_error">#FFFFFF</color>
+    <color name="lily_error_container">#F9DEDC</color>
+    <color name="lily_on_error_container">#410E0B</color>
+    <color name="lily_background">#F6F4F7</color>
+    <color name="lily_on_background">#221C29</color>
+    <color name="lily_surface">#F6F4F7</color>
+    <color name="lily_on_surface">#221C29</color>
+    <color name="lily_surface_variant">#E9E3EE</color>
+    <color name="lily_on_surface_variant">#5E566A</color>
+    <color name="lily_outline">#7E7489</color>
+    <color name="lily_outline_variant">#D9D0E0</color>
+    <color name="lily_inverse_surface">#332B3B</color>
+    <color name="lily_inverse_on_surface">#F4EEF8</color>
+    <color name="lily_inverse_primary">#CDB6EC</color>
+    <color name="lily_surface_lowest">#FEFDFE</color>
+    <color name="lily_surface_low">#FAF8FB</color>
+    <color name="lily_surface_container">#F1EDF4</color>
+    <color name="lily_surface_high">#ECE6F0</color>
+    <color name="lily_surface_highest">#E6E0EA</color>
+    <color name="lily_surface_dim">#DDD6E2</color>
+    <color name="lily_surface_bright">#FAF8FB</color>
+    <!-- custom roles (attrs.xml) -->
+    <color name="lily_success">#2E6B45</color>
+    <color name="lily_on_success">#FFFFFF</color>
+    <color name="lily_success_container">#DCEFE2</color>
+    <color name="lily_on_success_container">#123A22</color>
+    <color name="lily_header">#221C29</color>
+    <color name="lily_on_header">#F4EEF8</color>
+    <color name="lily_on_header_variant">#CDB6EC</color>
+    <color name="lily_header_accent">#E3A8C7</color>
+    <color name="lily_header_track">#3A3242</color>
 </resources>

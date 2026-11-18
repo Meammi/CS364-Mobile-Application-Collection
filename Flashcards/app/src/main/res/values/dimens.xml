@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- due / Done pills on the deck list: one width up to "99 due" -->
+    <dimen name="pill_min_width">88dp</dimen>
+</resources>

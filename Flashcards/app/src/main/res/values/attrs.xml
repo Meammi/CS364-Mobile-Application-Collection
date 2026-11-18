@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme roles Material 3 does not have. Set in Theme.Flashcards. -->
+    <attr name="colorSuccess" format="color" />
+    <attr name="colorOnSuccess" format="color" />
+    <attr name="colorSuccessContainer" format="color" />
+    <attr name="colorOnSuccessContainer" format="color" />
+    <attr name="colorHeader" format="color" />
+    <attr name="colorOnHeader" format="color" />
+    <attr name="colorOnHeaderVariant" format="color" />
+    <attr name="colorHeaderAccent" format="color" />
+    <attr name="colorHeaderTrack" format="color" />
+</resources>

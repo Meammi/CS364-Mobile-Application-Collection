@@ -1,8 +1,11 @@
 package com.example.flashcards;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +27,9 @@ public class AddEditCardActivity extends AppCompatActivity {
     private TextInputLayout backLayout;
     private TextInputEditText frontInput;
     private TextInputEditText backInput;
+    private View previewCard;
+    private TextView previewFront;
+    private TextView previewGist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +63,20 @@ public class AddEditCardActivity extends AppCompatActivity {
         } else {
             header.setTitle(R.string.add_card_title);
         }
+        Deck deck = db.getDeck(deckId);
+        if (deck != null) header.setSubtitle(deck.name);
+
+        previewCard = findViewById(R.id.previewCard);
+        previewFront = findViewById(R.id.previewFront);
+        previewGist = findViewById(R.id.previewGist);
+        TextWatcher watcher = new TextWatcher() {
+            @Override public void beforeTextChanged(CharSequence s, int a, int b, int c) {}
+            @Override public void onTextChanged(CharSequence s, int a, int b, int c) {}
+            @Override public void afterTextChanged(Editable s) { updatePreview(); }
+        };
+        frontInput.addTextChangedListener(watcher);
+        backInput.addTextChangedListener(watcher);
+        updatePreview();
 
         findViewById(R.id.saveButton).setOnClickListener(v -> {
             if (save()) finish();
@@ -75,6 +95,15 @@ public class AddEditCardActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         db.close();
+    }
+
+    /** Front + Gist line, as lists and Multiple Choice will show them. */
+    private void updatePreview() {
+        String front = textOf(frontInput).trim();
+        String gist = Card.gistOf(textOf(backInput));
+        previewCard.setVisibility(front.isEmpty() && gist.trim().isEmpty() ? View.GONE : View.VISIBLE);
+        previewFront.setText(front);
+        previewGist.setText(gist);
     }
 
     private static String textOf(TextInputEditText e) {

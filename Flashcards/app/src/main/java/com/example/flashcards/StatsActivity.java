@@ -1,5 +1,6 @@
 package com.example.flashcards;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.View;
@@ -14,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.WindowCompat;
 
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.card.MaterialCardView;
+import com.google.android.material.color.MaterialColors;
 
 import java.time.LocalDate;
 import java.time.format.TextStyle;
@@ -42,13 +45,13 @@ public class StatsActivity extends AppCompatActivity {
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setNavigationOnClickListener(v -> getOnBackPressedDispatcher().onBackPressed());
 
-        title(R.id.rowToday, R.string.stats_today);
-        title(R.id.rowAllTime, R.string.stats_all_time);
-        title(R.id.rowStreak, R.string.stats_streak);
-        title(R.id.rowAgain, R.string.stats_again_rate);
-        title(R.id.rowNew, R.string.state_new);
-        title(R.id.rowLearning, R.string.state_learning);
-        title(R.id.rowMature, R.string.state_mature);
+        tileText(R.id.tileToday, R.id.statLabel, getString(R.string.stats_today));
+        tileText(R.id.tileAllTime, R.id.statLabel, getString(R.string.stats_all_time));
+        tileText(R.id.tileStreak, R.id.statLabel, getString(R.string.stats_streak));
+        tileText(R.id.tileAgain, R.id.statLabel, getString(R.string.stats_again_short));
+        tileText(R.id.tileAgain, R.id.statSub, getString(R.string.stats_reviews_only));
+        highlightStreak();
+        findViewById(R.id.stateBar).setClipToOutline(true);   // round the ends of the segments
 
         long oneDeck = getIntent().getLongExtra(EXTRA_DECK_ID, -1);
         if (oneDeck != -1) {   // opened from a Deck screen: that Deck only
@@ -67,8 +70,7 @@ public class StatsActivity extends AppCompatActivity {
             names.add(d.name);
             deckIds.add(d.id);
         }
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_spinner_item, names);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.item_filter, names);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         Spinner filter = findViewById(R.id.deckFilter);
         filter.setAdapter(adapter);
@@ -90,12 +92,27 @@ public class StatsActivity extends AppCompatActivity {
         db.close();
     }
 
-    private void title(int rowId, int text) {
-        ((TextView) findViewById(rowId).findViewById(R.id.settingTitle)).setText(text);
+    private void tileText(int tileId, int textId, String text) {
+        ((TextView) findViewById(tileId).findViewById(textId)).setText(text);
     }
 
-    private void value(int rowId, String text) {
-        ((TextView) findViewById(rowId).findViewById(R.id.settingValue)).setText(text);
+    /** Days in a row: the one dark tile, in the header colours; no small line. */
+    private void highlightStreak() {
+        MaterialCardView tile = findViewById(R.id.tileStreak);
+        tile.setCardBackgroundColor(MaterialColors.getColor(tile, R.attr.colorHeader));
+        tile.setStrokeWidth(0);
+        ((TextView) tile.findViewById(R.id.statLabel)).setTextColor(
+                MaterialColors.getColor(tile, R.attr.colorOnHeaderVariant));
+        ((TextView) tile.findViewById(R.id.statValue)).setTextColor(
+                MaterialColors.getColor(tile, R.attr.colorOnHeader));
+        tile.findViewById(R.id.statSub).setVisibility(View.GONE);
+    }
+
+    private void segment(int id, int count) {
+        View seg = findViewById(id);
+        LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams) seg.getLayoutParams();
+        lp.weight = count;
+        seg.setLayoutParams(lp);
     }
 
     private static String duration(long seconds) {
@@ -107,12 +124,12 @@ public class StatsActivity extends AppCompatActivity {
     private void show(long deckId) {
         Stats s = db.getStats(deckId);
 
-        value(R.id.rowToday, getString(R.string.stats_cards_time,
-                s.weekCards[6], duration(s.weekSeconds[6])));
-        value(R.id.rowAllTime, getString(R.string.stats_cards_time,
-                s.totalCards, duration(s.totalSeconds)));
-        value(R.id.rowStreak, String.valueOf(s.streak));
-        value(R.id.rowAgain, s.gradedCards == 0 ? getString(R.string.stats_no_value)
+        tileText(R.id.tileToday, R.id.statValue, String.valueOf(s.weekCards[6]));
+        tileText(R.id.tileToday, R.id.statSub, getString(R.string.stats_cards_sub, duration(s.weekSeconds[6])));
+        tileText(R.id.tileAllTime, R.id.statValue, String.valueOf(s.totalCards));
+        tileText(R.id.tileAllTime, R.id.statSub, getString(R.string.stats_cards_sub, duration(s.totalSeconds)));
+        tileText(R.id.tileStreak, R.id.statValue, String.valueOf(s.streak));
+        tileText(R.id.tileAgain, R.id.statValue, s.gradedCards == 0 ? getString(R.string.stats_no_value)
                 : getString(R.string.stats_percent, Math.round(100f * s.againCards / s.gradedCards)));
 
         int[] minutes = new int[7];
@@ -120,9 +137,12 @@ public class StatsActivity extends AppCompatActivity {
         buildChart(findViewById(R.id.chartCards), s.weekCards);
         buildChart(findViewById(R.id.chartMinutes), minutes);
 
-        value(R.id.rowNew, String.valueOf(s.newCount));
-        value(R.id.rowLearning, String.valueOf(s.learningCount));
-        value(R.id.rowMature, String.valueOf(s.matureCount));
+        segment(R.id.stateNewSeg, s.newCount);
+        segment(R.id.stateLearningSeg, s.learningCount);
+        segment(R.id.stateMatureSeg, s.matureCount);
+        ((TextView) findViewById(R.id.stateNewCount)).setText(String.valueOf(s.newCount));
+        ((TextView) findViewById(R.id.stateLearningCount)).setText(String.valueOf(s.learningCount));
+        ((TextView) findViewById(R.id.stateMatureCount)).setText(String.valueOf(s.matureCount));
 
         showLog(deckId);
     }
@@ -140,9 +160,16 @@ public class StatsActivity extends AppCompatActivity {
         for (int i = 0; i < 7; i++) {
             View col = getLayoutInflater().inflate(R.layout.item_chart_bar, chart, false);
             ((TextView) col.findViewById(R.id.barValue)).setText(String.valueOf(values[i]));
-            ((TextView) col.findViewById(R.id.barLabel)).setText(LocalDate.ofEpochDay(today - 6 + i)
-                    .getDayOfWeek().getDisplayName(TextStyle.SHORT, locale));
+            TextView label = col.findViewById(R.id.barLabel);
             View bar = col.findViewById(R.id.bar);
+            if (i == 6) {   // today: pink bar, "Today" in bold
+                label.setText(R.string.stats_today);
+                label.setTypeface(label.getTypeface(), Typeface.BOLD);
+                bar.setBackgroundResource(R.drawable.bg_bar_today);
+            } else {
+                label.setText(LocalDate.ofEpochDay(today - 6 + i)
+                        .getDayOfWeek().getDisplayName(TextStyle.SHORT, locale));
+            }
             ViewGroup.LayoutParams lp = bar.getLayoutParams();
             lp.height = Math.max((int) (2 * dp), values[i] * tallest / max);
             bar.setLayoutParams(lp);
@@ -158,10 +185,13 @@ public class StatsActivity extends AppCompatActivity {
 
         java.text.DateFormat date = DateFormat.getMediumDateFormat(this);
         java.text.DateFormat time = DateFormat.getTimeFormat(this);
-        for (Session s : sessions) {
+        for (int i = 0; i < sessions.size(); i++) {
+            Session s = sessions.get(i);
             View row = getLayoutInflater().inflate(R.layout.item_session, list, false);
-            ((TextView) row.findViewById(R.id.sessionTitle)).setText(s.practice
-                    ? getString(R.string.session_practice_title, s.deckName) : s.deckName);
+            ((TextView) row.findViewById(R.id.sessionTitle)).setText(s.deckName);
+            row.findViewById(R.id.sessionTag).setVisibility(s.practice ? View.VISIBLE : View.GONE);
+            row.findViewById(R.id.sessionDivider).setVisibility(
+                    i == sessions.size() - 1 ? View.GONE : View.VISIBLE);
             Date when = new Date(s.startedAt);
             ((TextView) row.findViewById(R.id.sessionDetail)).setText(getString(
                     R.string.session_detail, date.format(when) + " " + time.format(when),

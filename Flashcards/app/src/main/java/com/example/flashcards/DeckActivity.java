@@ -92,6 +92,8 @@ public class DeckActivity extends AppCompatActivity {
         }
         toolbar.setTitle(deck.name);
         summaryText.setText(getString(R.string.deck_counts, deck.dueCount, deck.cardCount));
+        summaryText.setCompoundDrawablesRelativeWithIntrinsicBounds(   // pink dot while Cards are Due
+                deck.dueCount > 0 ? R.drawable.dot_header : 0, 0, 0, 0);
         List<Card> cards = db.getCards(deckId);
         adapter.setItems(cards);
         emptyText.setVisibility(cards.isEmpty() ? View.VISIBLE : View.GONE);

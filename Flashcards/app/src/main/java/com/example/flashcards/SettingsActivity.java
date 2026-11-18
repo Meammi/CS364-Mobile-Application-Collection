@@ -21,6 +21,7 @@ import androidx.core.os.LocaleListCompat;
 import androidx.core.view.WindowCompat;
 
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.color.MaterialColors;
 import com.google.android.material.materialswitch.MaterialSwitch;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
@@ -53,6 +54,8 @@ public class SettingsActivity extends AppCompatActivity {
         rowNewLimit = row(R.id.rowNewLimit, R.string.setting_new_limit);
         rowReminderTime = row(R.id.rowReminderTime, R.string.setting_reminder_time);
         rowReset = row(R.id.rowReset, R.string.reset_all);
+        ((TextView) rowReset.findViewById(R.id.settingTitle)).setTextColor(   // destructive row in red
+                MaterialColors.getColor(rowReset, androidx.appcompat.R.attr.colorError));
         reminderSwitch = findViewById(R.id.reminderSwitch);
 
         rowTheme.setOnClickListener(v -> chooseTheme());
